@@ -3,7 +3,7 @@ document.write('<header id="header" class="header">\
   <div class="container">\
     <div class="menu">\
       <!-- Logo -->\
-      <a href="index.html"><img src="../img/logo_massage.png" alt="logo" width="7%" /></a>\
+      <img src="../img/logo_massage.png" alt="logo" width="7%" />\
       <!-- Hamburger icon -->\
       <input class="side-menu" type="checkbox" id="side-menu" />\
       <label class="hamb" for="side-menu"\
@@ -12,7 +12,19 @@ document.write('<header id="header" class="header">\
       <!-- Menu -->\
       <nav class="nav">\
         <ul class="menu">\
-          <li><a class="services-ul" href="#services">Послуги</a></li>\
+          <li>\
+            <a class="services-ul" href="#services">Послуги</a>\
+            <ul class="menu-under">\
+              <li><a href="#">SPA програми</a></li>\
+              <li><a href="#">Тайський масаж</a></li>\
+              <li><a href="#">Гавайський масаж</a></li>\
+              <li><a href="#">Вогняний масаж</a></li>\
+              <li><a href="#">Стоун-терапія</a></li>\
+              <li><a href="#">Антицелюлітний масаж</a></li>\
+              <li><a href="#">Масаж обличчя</a></li>\
+              <li><a href="#">Для двох</a></li>\
+            </ul>\
+          </li>\
           <li><a href="#rules">Правила</a></li>\
           <li><a href="#contacts">Контакти</a></li>\
           <li><a href="#price-and-discounts">Ціни та знижки</a></li>\
