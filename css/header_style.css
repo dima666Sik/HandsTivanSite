@@ -24,12 +24,15 @@ h3 {
 }
 
 .container {
-    max-width: 80%;
+    max-width: 90%;
     padding: 0 10px;
     margin: 0 auto;
-    /* border: 2px solid red; */
+    border: 2px solid red;
 }
-
+.container-fl{
+    display: flex;
+    align-items: center;
+}
 a {
     text-decoration: none;
 }
@@ -46,7 +49,12 @@ ul {
     /* border: 2px solid red; */
 }
 
-.header .header-container {
+.div-menu{
+    border: 2px solid red;
+    width: 100%;
+}
+
+.header{
     background-color: #333;
     position: absolute;
     top: 0;
@@ -55,13 +63,19 @@ ul {
 }
 
 /* Nav menu */
+.logo-container{
+    max-width: 10%;
+}
+
+.logo-container .logo{
+    max-width: 100%;
+}
+
 .nav {
     width: 100%;
     height: 100%;
-    /* position: fixed; */
     overflow: hidden;
-    display: flex;
-    align-items: center;
+    border: 2px solid green;
 }
 
 .nav .menu a {
@@ -111,6 +125,8 @@ ul {
 .nav {
     max-height: 0;
     transition: .5s;
+    display: flex;
+    justify-content: flex-end;
 }
 
 .menu-under {
@@ -181,15 +197,91 @@ ul {
     top: 0;
 }
 
+.menu .active__home {
+    color: #bababa;
+}
+
+/** Changer language **/
+/* Custom dropdown */
+select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    appearance: none;
+    outline: 0;
+    background: #ddd;
+    background-image: none;
+    border: 1px solid black;
+}
+ 
+.select {
+    position: relative;
+    display: block;
+    height: 25px;
+    line-height: 1.5;
+    background: #ddd;
+    overflow: hidden;
+}
+ 
+select {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0 0 0 .5em;
+    color: #222;
+    cursor: pointer;
+}
+ 
+select::-ms-expand {
+    display: none;
+}
+ 
+.select::after {
+    content: '\25BC';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    padding: 0 0.5em;
+    background: #fff;
+    pointer-events: none;
+}
+ 
+.select:hover::after {
+    color: #f7f724;
+    background: #ccc;
+}
+ 
+.select::after {
+    -webkit-transition: .25s all ease;
+    -o-transition: .25s all ease;
+    transition: .25s all ease;
+    
+}
+
+#slct{
+    border: none;
+}
+
+.menu-container{
+    border: 2px solid #e2e220;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+
+}
+
 /* Responsiveness */
-@media (min-width: 868px) {
+@media (min-width: 600px) {
     .nav {
         max-height: none;
         padding-right: 5%;
         padding-top: 1.5%;
-        float: right;
-        width: fit-content;
+        /* float: right;
+        width: fit-content; */
     }
+
 
     .menu li {
         float: left;
@@ -228,7 +320,74 @@ ul {
         display: none;
     }
 }
+@media (min-width: 1850px) {
+    .select{
+        width: 4%;
+    }
+}
 
-.menu .active__home {
-    color: #bababa;
+@media (max-width: 1700px) {
+    .select{
+        width: 6%;
+    }
+}
+
+@media (max-width: 1300px) {
+    .select{
+        width: 7%;
+    }
+}
+
+@media (max-width: 1100px) {
+    .select{
+        width: 8%;
+    }
+}
+
+@media (max-width: 900px) {
+    .select{
+        width: 11%;
+    }
+}
+
+@media (max-width: 700px) {
+    .select{
+        width: 15%;
+    }
+}
+
+@media (max-width: 600px) {
+    .select{
+        width: 17%;
+    }
+}
+
+@media (max-width: 500px) {
+    .select{
+        width: 20%;
+    }
+}
+
+@media (max-width: 400px){
+    .select{
+        width: 25%;
+    }
+}
+
+@media (max-width: 300px){
+    .select{
+        width: 35%;
+    }
+}
+
+@media (max-width: 250px){
+    .select{
+        width: 45%;
+    }
+}
+
+@media (min-width: 100px) and (max-width: 200px){
+    .select{
+        width: 60%;
+    }
 }
