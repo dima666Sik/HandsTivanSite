@@ -40,7 +40,7 @@ document.write('<header id="header" class="header">\
       </div>\
       <div class="select">\
         <select name="slct" id="slct">\
-          <option value="ua" selected>Украї́нська</option>\
+          <option value="ua" selected="selected">Украї́нська</option>\
           <option value="ru">Русский</option>\
         </select>\
       </div>\
