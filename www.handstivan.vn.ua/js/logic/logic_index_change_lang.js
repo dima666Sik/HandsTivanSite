@@ -16,6 +16,8 @@ function changeLanguage() {
 
     if (!slct_item) {
         select.value = allLang[0];
+        localStorage.setItem("mySelectedValue", lang);
+        location.reload();
     }
 
     select.value = slct_item;
