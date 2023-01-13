@@ -1,0 +1,24 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* background-color: #f9f9f9; */
+    background-color: #313131;
+    font-family: 'Roboto', Arial, sans-serif;
+}
+
+h1 {
+    font-size: calc(0.1em + 6vw);
+}
+
+h2 {
+    font-size: calc(0.1em + 3vw);
+}
+
+h3 {
+    font-size: calc(0.1em + 1.5vw);
+}
