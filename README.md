@@ -11,8 +11,8 @@ You can check my work by clicking on this link:
 - Adaptive layout
 
 ### Header
-☑️Drop-down list
-<br>☑️Change language (Ukrainian|Russian)
+☑️ Drop-down list
+<br>☑️ Change language (Ukrainian|Russian)
 
 ### Footer
 
