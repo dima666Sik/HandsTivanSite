@@ -1,39 +1,39 @@
-document.write('    <header id="header" class="header">\
+document.write('<header id="header" class="header">\
 <div class="container">\
-  <div class="container-fl">\
-    <a class="logo-container" href="index.html">\
+  <div class="container__fl">\
+    <a class="logo__container" href="index.html">\
       <!-- Logo -->\
       <img class="logo" src="../img/logo_massage.png" alt="logo" />\
     </a>\
-    <div class="menu-container">\
-      <div class="div-menu">\
+    <div class="menu__container">\
+      <div class="div__menu">\
         <!-- Hamburger icon -->\
-        <input class="side-menu" type="checkbox" id="side-menu" />\
-        <label class="hamb" for="side-menu"\
-          ><span class="hamb-line"></span\
+        <input class="side__menu" type="checkbox" id="side__menu" />\
+        <label class="hamb" for="side__menu"\
+          ><span class="hamb__line"></span\
         ></label>\
         <!-- Menu -->\
         <nav class="nav">\
           <ul class="menu">\
             <li>\
-              <a class="lng-services-ul" href="#services">Послуги</a>\
-              <ul class="menu-under">\
-                <li><a class="lng-spa" href="#">SPA програми</a></li>\
-                <li><a class="lng-tai-massage" href="#">Тайський масаж</a></li>\
-                <li><a class="lng-gav-massage" href="#">Гавайський масаж</a></li>\
-                <li><a class="lng-fire-massage" href="#">Вогняний масаж</a></li>\
-                <li><a class="lng-stone-massage" href="#">Стоун-терапія</a></li>\
-                <li><a class="lng-anticell-massage" href="#">Антицелюлітний масаж</a></li>\
-                <li><a class="lng-face-massage" href="#">Масаж обличчя</a></li>\
-                <li><a class="lng-for-two" href="#">Для двох</a></li>\
+              <a class="lng__services__ul" href="#services">Послуги</a>\
+              <ul class="menu__under">\
+                <li><a class="lng__spa" href="#">SPA програми</a></li>\
+                <li><a class="lng__tai__massage" href="#">Тайський масаж</a></li>\
+                <li><a class="lng__gav__massage" href="#">Гавайський масаж</a></li>\
+                <li><a class="lng__fire__massage" href="#">Вогняний масаж</a></li>\
+                <li><a class="lng__stone__massage" href="#">Стоун-терапія</a></li>\
+                <li><a class="lng__anticell__massage" href="#">Антицелюлітний масаж</a></li>\
+                <li><a class="lng__face__massage" href="#">Масаж обличчя</a></li>\
+                <li><a class="lng__for__two" href="#">Для двох</a></li>\
               </ul>\
             </li>\
-            <li><a class="lng-rules" href="#rules">Правила</a></li>\
-            <li><a class="lng-contacts" href="#contacts">Контакти</a></li>\
-            <li><a class="lng-price-and-discounts" href="#price-and-discounts">Ціни та знижки</a></li>\
-            <li><a class="lng-trainings" href="#trainings">Тренінги</a></li>\
+            <li><a class="lng__rules" href="#rules">Правила</a></li>\
+            <li><a class="lng__contacts" href="#contacts">Контакти</a></li>\
+            <li><a class="lng__price__and__discounts" href="#price__and__discounts">Ціни та знижки</a></li>\
+            <li><a class="lng__trainings" href="#trainings">Тренінги</a></li>\
             <li>\
-              <a class="lng-gift-certificates" href="#gift-certificates">Подарункові сертифікати</a>\
+              <a class="lng__gift__certificates" href="#gift__certificates">Подарункові сертифікати</a>\
             </li>\
           </ul>\
         </nav>\
@@ -47,4 +47,4 @@ document.write('    <header id="header" class="header">\
     </div>\
   </div>\
 </div>\
-</header>')
+</header>');

@@ -1,6 +1,6 @@
 const select = document.querySelector('select');
 const allLang = ['ua', 'en'];
-import { langArr } from '../logic/index_lang.js';
+import { langArr } from "../langs/index_lang.js";
 
 select.addEventListener('change', changeURLLanguage);
 
@@ -16,10 +16,15 @@ function changeLanguage() {
 
     if (!slct_item) {
         select.value = allLang[0];
-        location.reload();
     }
+
     select.value = slct_item;
-    document.querySelector('title').innerHTML = langArr['title'][slct_item];
+
+    let keys = Object.keys(langArr);
+
+    for (let i = 0; i < keys.length; i++) {
+        document.querySelector(`.lng__${keys[i]}`).innerHTML = langArr[keys[i]][slct_item];
+    }
 }
 
 changeLanguage();

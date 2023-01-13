@@ -1,9 +1,9 @@
 export const langArr = {
     "title": {
-        "ua": "Tivan Масаж",
-        "en": "Tivan Massage"
+        "ua": "HANDS TIVAN",
+        "en": "HANDS TIVAN"
     },
-    "services-ul": {
+    "services__ul": {
         "ua": "Послуги",
         "en": "Services"
     },
@@ -11,31 +11,31 @@ export const langArr = {
         "ua": "SPA програми",
         "en": "SPA programs"
     },
-    "tai-massage": {
+    "tai__massage": {
         "ua": "Тайський масаж",
         "en": "Thai massage"
     },
-    "gav-massage": {
+    "gav__massage": {
         "ua": "Гавайський масаж",
         "en": "Hawaiian massage"
     },
-    "fire-massage": {
+    "fire__massage": {
         "ua": "Вогняний масаж",
         "en": "Fire massage"
     },
-    "stone-massage": {
+    "stone__massage": {
         "ua": "Стоун-терапія",
         "en": "Stone therapy"
     },
-    "anticell-massage": {
+    "anticell__massage": {
         "ua": "Антицелюлітний масаж",
         "en": "Anti-cellulite massage"
     },
-    "face-massage": {
+    "face__massage": {
         "ua": "Масаж обличчя",
         "en": "Face massage"
     },
-    "for-two": {
+    "for__two": {
         "ua": "Для двох",
         "en": "For two"
     },
@@ -47,7 +47,7 @@ export const langArr = {
         "ua": "Контакти",
         "en": "Contacts"
     },
-    "price-and-discounts": {
+    "price__and__discounts": {
         "ua": "Ціни та знижки",
         "en": "Prices and discounts"
     },
@@ -55,7 +55,7 @@ export const langArr = {
         "ua": "Тренінги",
         "en": "Trainings"
     },
-    "gift-certificates": {
+    "gift__certificates": {
         "ua": "Подарункові сертифікати",
         "en": "Gift certificates"
     },
