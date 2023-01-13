@@ -5,7 +5,7 @@
 2. Project is future site.
 
 ## Demo
-You can check my work by clicking on this link: 
+You can check my work by clicking on this link: https://dima666sik.github.io/HandsTivanSite/
 
 ## Features
 - Adaptive layout
