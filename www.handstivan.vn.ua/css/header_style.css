@@ -30,7 +30,7 @@ ul {
 }
 
 .header {
-    background-color: #333;
+    background-color: rgba(20, 20, 20, 0.56);
     top: 0;
     width: 100%;
     z-index: 2;
@@ -150,8 +150,9 @@ ul {
 /* Toggle menu icon */
 .side__menu:checked~nav {
     max-height: 50%;
-    height: 200px;
+    height: 50vh;
     overflow-y: scroll;
+    font-size: calc(2em + 2vw);
 }
 
 .side__menu:checked~.hamb .hamb__line {
@@ -244,13 +245,12 @@ select::-ms-expand {
 }
 
 /* Responsiveness */
-@media (min-width: 600px) {
+@media (min-width: 900px) {
     .nav {
         max-height: none;
         padding-right: 5%;
         padding-top: 1.5%;
     }
-
 
     .menu li {
         float: left;
@@ -277,7 +277,7 @@ select::-ms-expand {
     }
 
     .menu__under {
-        background-color: #333;
+        background-color: rgba(20, 20, 20, 0.56);
         display: flex;
         padding-left: 0%;
         position: absolute;

@@ -6,9 +6,9 @@
 }
 
 body {
-    /* background-color: #f9f9f9; */
-    background-color: #313131;
     font-family: 'Roboto', Arial, sans-serif;
+    background: url("../img/index/background.jpg") no-repeat center center fixed;
+    background-size: cover;
 }
 
 h1 {
@@ -22,3 +22,4 @@ h2 {
 h3 {
     font-size: calc(0.1em + 1.5vw);
 }
+
