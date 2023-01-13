@@ -1,4 +1,4 @@
-# Tivan massage site 🙌
+# Hands Tivan massage site 🙌
 
 ## Preview from dima-coder =)!
 1. This project use html 5, css, js.
@@ -12,7 +12,7 @@ You can check my work by clicking on this link:
 
 ### Header
 - Drop-down list
-- Change language (Ukrainian|English)
+- Change language (Ukrainian|Russian)
 
 ### Footer
 
