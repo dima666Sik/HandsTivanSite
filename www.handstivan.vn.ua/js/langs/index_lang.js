@@ -1,62 +1,62 @@
 export const langArr = {
     "title": {
         "ua": "HANDS TIVAN",
-        "en": "HANDS TIVAN"
+        "ru": "HANDS TIVAN"
     },
     "services__ul": {
         "ua": "Послуги",
-        "en": "Services"
+        "ru": "Услуги"
     },
     "spa": {
         "ua": "SPA програми",
-        "en": "SPA programs"
+        "ru": "SPA программы"
     },
     "tai__massage": {
         "ua": "Тайський масаж",
-        "en": "Thai massage"
+        "ru": "Тайский массаж"
     },
     "gav__massage": {
         "ua": "Гавайський масаж",
-        "en": "Hawaiian massage"
+        "ru": "Гавайский массаж"
     },
     "fire__massage": {
         "ua": "Вогняний масаж",
-        "en": "Fire massage"
+        "ru": "Огненный массаж"
     },
     "stone__massage": {
         "ua": "Стоун-терапія",
-        "en": "Stone therapy"
+        "ru": "Стоун-терапия"
     },
     "anticell__massage": {
         "ua": "Антицелюлітний масаж",
-        "en": "Anti-cellulite massage"
+        "ru": "Антицеллюлитный массаж"
     },
     "face__massage": {
         "ua": "Масаж обличчя",
-        "en": "Face massage"
+        "ru": "Массаж лица"
     },
     "for__two": {
         "ua": "Для двох",
-        "en": "For two"
+        "ru": "Для двоих"
     },
     "rules": {
         "ua": "Правила",
-        "en": "Rules"
+        "ru": "Правила"
     },
     "contacts": {
         "ua": "Контакти",
-        "en": "Contacts"
+        "ru": "Контакты"
     },
     "price__and__discounts": {
         "ua": "Ціни та знижки",
-        "en": "Prices and discounts"
+        "ru": "Цены и скидки"
     },
     "trainings": {
         "ua": "Тренінги",
-        "en": "Trainings"
+        "ru": "Тренинги"
     },
     "gift__certificates": {
         "ua": "Подарункові сертифікати",
-        "en": "Gift certificates"
+        "ru": "Подарочные сертификаты"
     },
 }
