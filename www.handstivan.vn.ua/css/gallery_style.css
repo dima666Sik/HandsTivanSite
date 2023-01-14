@@ -92,7 +92,7 @@
 @media (max-width: 900px){
 
 	.grid__item__btn a{
-		color:green;
+		font-size: calc(0.1em + 2vw);
 	}
 
 	.gallery__grid{
