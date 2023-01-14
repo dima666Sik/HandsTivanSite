@@ -15,3 +15,14 @@
     font-size: calc(0.1em + 1.6vw);
 }
 
+@media (max-width: 900px){
+	
+    .hero__text h2{
+        font-size: calc(0.1em + 6.5vw);
+    }
+
+    .hero__inner{
+        font-size: calc(0.1em + 4.2vw);
+    }
+}
+

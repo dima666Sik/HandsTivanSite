@@ -27,6 +27,7 @@
 
 .grid__item__inner{
 	height: 100%;
+	width: 100%;
 }
 
 .grid__img__container {
@@ -86,4 +87,23 @@
 
 .grid__item__btn:hover a{
 	color:#F7F5EB;
+}
+
+@media (max-width: 900px){
+
+	.grid__item__btn a{
+		color:green;
+	}
+
+	.gallery__grid{
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-around;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.grid__item{
+		width: 80%;
+	}
 }
