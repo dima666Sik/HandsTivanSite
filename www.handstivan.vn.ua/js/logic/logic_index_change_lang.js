@@ -25,7 +25,7 @@ function changeLanguage() {
     let keys = Object.keys(langArr);
 
     for (let i = 0; i < keys.length; i++) {
-        document.querySelector(`.lng__${keys[i]}`).innerHTML = langArr[keys[i]][slct_item];
+        document.querySelector(`#lng__${keys[i]}`).innerHTML = langArr[keys[i]][slct_item];
     }
 }
 

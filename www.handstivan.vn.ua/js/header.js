@@ -16,24 +16,24 @@ document.write('<header id="header" class="header">\
         <nav class="nav">\
           <ul class="menu">\
             <li>\
-              <a class="lng__services__ul" href="#services">Послуги</a>\
+              <a id="lng__services__ul" class="lng__services__ul" href="#services">Послуги</a>\
               <ul class="menu__under">\
-                <li><a class="lng__spa" href="#">SPA програми</a></li>\
-                <li><a class="lng__tai__massage" href="#">Тайський масаж</a></li>\
-                <li><a class="lng__gav__massage" href="#">Гавайський масаж</a></li>\
-                <li><a class="lng__fire__massage" href="#">Вогняний масаж</a></li>\
-                <li><a class="lng__stone__massage" href="#">Стоун-терапія</a></li>\
-                <li><a class="lng__anticell__massage" href="#">Антицелюлітний масаж</a></li>\
-                <li><a class="lng__face__massage" href="#">Масаж обличчя</a></li>\
-                <li><a class="lng__for__two" href="#">Для двох</a></li>\
+                <li><a id="lng__spa" class="lng__spa" href="#">SPA програми</a></li>\
+                <li><a id="lng__tai__massage" class="lng__tai__massage" href="#">Тайський масаж</a></li>\
+                <li><a id="lng__gav__massage" class="lng__gav__massage" href="#">Гавайський масаж</a></li>\
+                <li><a id="lng__fire__massage" class="lng__fire__massage" href="#">Вогняний масаж</a></li>\
+                <li><a id="lng__stone__massage" class="lng__stone__massage" href="#">Стоун-терапія</a></li>\
+                <li><a id="lng__anticell__massage" class="lng__anticell__massage" href="#">Антицелюлітний масаж</a></li>\
+                <li><a id="lng__face__massage"  class="lng__face__massage" href="#">Масаж обличчя</a></li>\
+                <li><a id="lng__for__two" class="lng__for__two" href="#">Для двох</a></li>\
               </ul>\
             </li>\
-            <li><a class="lng__rules" href="#rules">Правила</a></li>\
-            <li><a class="lng__contacts" href="#contacts">Контакти</a></li>\
-            <li><a class="lng__price__and__discounts" href="#price__and__discounts">Ціни та знижки</a></li>\
-            <li><a class="lng__trainings" href="#trainings">Тренінги</a></li>\
+            <li><a id="lng__rules" class="lng__rules" href="#rules">Правила</a></li>\
+            <li><a id="lng__contacts" class="lng__contacts" href="#contacts">Контакти</a></li>\
+            <li><a id="lng__price__and__discounts" class="lng__price__and__discounts" href="#price__and__discounts">Ціни та знижки</a></li>\
+            <li><a id="lng__trainings" class="lng__trainings" href="#trainings">Тренінги</a></li>\
             <li>\
-              <a class="lng__gift__certificates" href="#gift__certificates">Подарункові сертифікати</a>\
+              <a id="lng__gift__certificates" class="lng__gift__certificates" href="#gift__certificates">Подарункові сертифікати</a>\
             </li>\
           </ul>\
         </nav>\
