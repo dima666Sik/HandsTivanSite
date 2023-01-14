@@ -56,7 +56,7 @@ ul {
     margin: 7px;
     padding-bottom: 5px;
     /* text-transform: uppercase; */
-    color: #f9f9f9;
+    color: #F7F5EB;
     font-size: calc(0.1em + 1.1vw);
     /*underline*/
     position: relative;
@@ -113,7 +113,7 @@ ul {
 
 /* Style label tag */
 .hamb__line {
-    background: #f9f9f9;
+    background: #F7F5EB;
     display: block;
     height: 2px;
     position: relative;
@@ -124,7 +124,7 @@ ul {
 /* Style span tag */
 .hamb__line::before,
 .hamb__line::after {
-    background: #f9f9f9;
+    background: #F7F5EB;
     content: '';
     display: block;
     height: 100%;
@@ -259,7 +259,6 @@ select::-ms-expand {
     .menu a:hover {
         background-color: transparent;
         color: #e6c55a;
-
     }
 
     .hamb {

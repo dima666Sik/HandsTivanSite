@@ -14,5 +14,10 @@ You can check my work by clicking on this link: https://dima666sik.github.io/Han
 ☑️ Drop-down list
 <br>☑️ Change language (Ukrainian|Russian)
 
+### Main
+☑️ Gallary
+
 ### Footer
+☑️ Contacts
+<br>☑️ Links to social networks
 

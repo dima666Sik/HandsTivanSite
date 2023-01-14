@@ -19,3 +19,15 @@ h2 {
     font-size: calc(0.1em + 3.5vw);
 }
 
+h3 {
+    font-size: calc(0.1em + 2.5vw);
+}
+
+h4 {
+    font-size: calc(0.1em + 1vw);
+}
+
+h5 {
+    font-size: calc(0.1em + 0.5vw);
+}
+
