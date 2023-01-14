@@ -54,7 +54,7 @@
 	background: rgba(227, 199, 108, 0.681);
 	overflow: hidden;
 	opacity: 0;
-	transition: all .2s ease;
+	transition: all .8s ease;
 	content:'';
 }
 
@@ -82,6 +82,7 @@
 }
 
 .grid__item__btn:hover {
+	transition: 0.8s;
 	background:#e6c55ad6;
 }
 

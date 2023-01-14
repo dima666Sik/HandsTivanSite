@@ -64,7 +64,6 @@ ul {
 
 /*create underline*/
 .nav .menu a:hover {
-    /* background-color: rgb(64, 64, 64); */
     color: #e6c55a;
 }
 
@@ -220,15 +219,9 @@ select::-ms-expand {
 }
 
 .select:hover::after {
+    transition: 0.8s;
     color: #f7f724;
     background: #ccc;
-}
-
-.select::after {
-    -webkit-transition: .25s all ease;
-    -o-transition: .25s all ease;
-    transition: .25s all ease;
-
 }
 
 #slct {
@@ -257,6 +250,7 @@ select::-ms-expand {
     }
 
     .menu a:hover {
+        transition: 0.8s;
         background-color: transparent;
         color: #e6c55a;
     }
