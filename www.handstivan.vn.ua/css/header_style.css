@@ -346,25 +346,25 @@ select::-ms-expand {
 
 @media (max-width: 500px) {
     .select {
-        width: 42%;
+        width: 45%;
     }
 }
 
 @media (max-width: 400px) {
     .select {
-        width: 51%;
+        width: 55%;
     }
 }
 
 @media (max-width: 300px) {
     .select {
-        width: 70%;
+        width: 75%;
     }
 }
 
 @media (max-width: 250px) {
     .select {
-        width: 90%;
+        width: 95%;
     }
 }
 
