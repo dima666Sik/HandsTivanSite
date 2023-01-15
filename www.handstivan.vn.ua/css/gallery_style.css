@@ -93,7 +93,7 @@
 @media (max-width: 900px){
 
 	.grid__item__btn a{
-		font-size: calc(0.1em + 2vw);
+		font-size: calc(0.2em + 4vw);
 	}
 
 	.gallery__grid{
@@ -106,5 +106,9 @@
 
 	.grid__item{
 		width: 80%;
+	}
+
+	.section__subtitle{
+		font-size: calc(0.1em + 5vw);
 	}
 }

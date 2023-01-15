@@ -16,3 +16,9 @@
 .copyright__text span {
 	color: #aeaeae;
 }
+
+@media (max-width: 900px) {
+	.copyright__text .p__inner {
+		font-size: calc(0.2em + 2.5vw);
+	}
+}

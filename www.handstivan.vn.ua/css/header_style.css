@@ -286,6 +286,13 @@ select::-ms-expand {
     .logo__container {
         max-width: 20%;
     }
+    .side__menu:checked~nav {
+        max-height: 50%;
+        height: 50vh;
+        overflow-y: scroll;
+        font-size: calc(4em + 10vw);
+    }
+    
 }
 
 @media (max-width: 800px) {
@@ -363,13 +370,18 @@ select::-ms-expand {
 }
 
 @media (max-width: 250px) {
+    .div__menu{
+        margin-top: 5%;
+    }
     .select {
         width: 95%;
+        margin-top: 5%;
     }
 }
 
 @media (min-width: 100px) and (max-width: 200px) {
     .select {
-        width: 100%;
+        width: 32.5%;
+        margin-top: 5%;
     }
 }
