@@ -1,0 +1,24 @@
+.footer {
+	background-color: #000000;
+}
+
+.copyright {
+	padding: 20px 0;
+}
+
+.copyright__text .p__inner {
+	text-align: center;
+	font-size: calc(0.1em + 1.1vw);
+	line-height: 1.5;
+	color: #808080;
+}
+
+.copyright__text span {
+	color: #aeaeae;
+}
+
+@media (max-width: 900px) {
+	.copyright__text .p__inner {
+		font-size: calc(0.2em + 2.5vw);
+	}
+}
