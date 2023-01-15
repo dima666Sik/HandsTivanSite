@@ -354,18 +354,27 @@ select::-ms-expand {
 @media (max-width: 500px) {
     .select {
         width: 45%;
+        margin-top: 2%;
     }
 }
 
 @media (max-width: 400px) {
+    .div__menu{
+        margin-top: 3%;
+    }
     .select {
         width: 55%;
+        margin-top: 3%;
     }
 }
 
 @media (max-width: 300px) {
+    .div__menu{
+        margin-top: 5%;
+    }
     .select {
         width: 75%;
+        margin-top: 5%;
     }
 }
 
