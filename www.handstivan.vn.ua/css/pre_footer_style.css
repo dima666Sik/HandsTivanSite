@@ -1,182 +1,451 @@
-body {
-	margin: 0;
-	padding: 0;
-}
-.main {
-	max-height: 550px;;
-	background-color: #292c2f;
-	color: #F7F5EB;
-	font-size: 38pt;
-	text-align: center;
-	line-height: 550px;
-}
-.footer-distributed{
-	background-color: #292c2f;
-	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
-	box-sizing: border-box;
-	width: 100%;
-	text-align: left;
-	font: bold 16px sans-serif;
+.footer-distributed {
+    background-color: #292c2f;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+    box-sizing: border-box;
+    width: 100%;
+    text-align: left;
+    font: bold calc(0.1em + 1.25vw) sans-serif;
 
-	padding: 25px 20px;
+    padding: 3% 2%;
+}
+
+.controle__margin {
+    display: flex;
+    justify-content: space-between;
 }
 
 .footer-distributed .footer-left,
 .footer-distributed .footer-center,
-.footer-distributed .footer-right{
-	display: inline-block;
-	vertical-align: top;
+.footer-distributed .footer-right {
+    display: inline-block;
+    vertical-align: top;
 }
 
-.footer-distributed .footer-center div{
-    
+.footer-distributed .footer-center div {
+    display: flex;
+    align-items: center;
 }
 
-.footer-distributed .footer-left{
-	width: 40%;
+.footer-distributed .footer-left {
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.footer-distributed h3{
-	color:  #F7F5EB;
-	font: normal 36px 'Cookie', cursive;
-	margin: 0;
+.footer-distributed h3 {
+    color: #F7F5EB;
+    font: normal calc(0.9em + 2.5vw) 'Cookie', cursive;
+    margin: 0;
 }
 
-.footer-distributed h3 span{
-	color:  #e6c55a;
-}
-
-
-.footer-distributed .footer-links{
-	color:  #F7F5EB;
-	margin: 20px 0 12px;
-	padding: 0;
-}
-
-.footer-distributed .footer-links a{
-	display:inline-block;
-	line-height: 1.8;
-	text-decoration: none;
-	color:  inherit;
-}
-
-.footer-distributed{
-	color:  #8f9296;
-	font-size: 14px;
-	font-weight: normal;
-	margin: 0;
+.footer-distributed h3 span {
+    color: #e6c55a;
 }
 
 
-.footer-distributed .footer-center{
-	width: 35%;
+.footer-distributed .footer-links {
+    color: #F7F5EB;
+    margin: 20px 0 12px;
+    padding: 0;
 }
 
-.footer-distributed .footer-center img{
-	background-color:  #33383b;
-	color: #F7F5EB;
-	font-size: 25px;
-	width: 38px;
-	height: 38px;
-	border-radius: 50%;
-	text-align: center;
-	line-height: 42px;
-	margin: 10px 15px;
-	vertical-align: middle;
+.footer-distributed .footer-links a {
+    display: inline-block;
+    line-height: 1.8;
+    text-decoration: none;
+    color: inherit;
+}
+
+
+.footer-distributed .footer-center {
+    width: 35%;
+}
+
+.footer-distributed .footer-center img {
+    background-color: #33383b;
+    color: #F7F5EB;
+    font-size: 25px;
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 42px;
+    margin: 10px 15px;
+    vertical-align: middle;
     border: 1px solid #e6c55a;
 }
 
-.footer-distributed .footer-center i.fa-envelope{
-	font-size: 17px;
-	line-height: 38px;
+.footer-distributed .footer-center i.fa-envelope {
+    font-size: 17px;
+    line-height: 38px;
 }
 
-.footer-distributed .footer-center p{
-	display: inline-block;
-	color: #F7F5EB;
-	vertical-align: middle;
-	margin:0;
+.footer-distributed .footer-center p {
+    display: inline-block;
+    color: #F7F5EB;
+    vertical-align: middle;
+    margin: 0;
 }
 
-.footer-distributed .footer-center p span{
-	display:block;
-	font-weight: normal;
-	font-size:14px;
-	line-height:2;
+.footer-distributed .footer-center p span {
+    display: block;
+    font-weight: normal;
+    font-size: calc(0.1em + 1.25vw);
+    line-height: 2;
 }
 
-.footer-distributed .footer-center p a{
-	color:  #e6c55a;
-	text-decoration: none;;
+.footer-distributed .footer-center p a {
+    color: #e6c55a;
+    text-decoration: none;
+    ;
 }
 
-.footer-distributed .footer-right{
-	width: 20%;
+.footer-distributed .footer-right {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
-.footer-distributed .footer-company-about{
-	line-height: 20px;
-	color:  #92999f;
-	font-size: 13px;
-	font-weight: normal;
-	margin: 0;
+.footer-distributed .footer-company-about {
+    line-height: 20px;
+    color: #92999f;
+    font-size: calc(0.1em + 1.25vw);
+    font-weight: normal;
+    margin: 0;
 }
 
-.footer-distributed .footer-company-about span{
-	display: block;
-	color:  #F7F5EB;
-	font-size: 14px;
-	font-weight: bold;
-	margin-bottom: 20px;
+.footer-distributed .footer-company-about span {
+    display: block;
+    color: #F7F5EB;
+    font-weight: bold;
+    margin-bottom: 5%;
 }
 
-.footer-distributed .footer-icons{
-	margin-top: 25px;
-}
+.footer-distributed .footer-icons a img {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+    background-color: #33383b;
+    border-radius: 2px;
 
-.footer-distributed .footer-icons a img{
-	display: inline-block;
-	width: 35px;
-	height: 35px;
-	cursor: pointer;
-	background-color:  #33383b;
-	border-radius: 2px;
+    font-size: 20px;
+    color: #F7F5EB;
+    text-align: center;
+    line-height: 35px;
 
-	font-size: 20px;
-	color: #F7F5EB;
-	text-align: center;
-	line-height: 35px;
-
-	margin-right: 3px;
-	margin-bottom: 5px;
+    margin-right: 3px;
+    margin-bottom: 5px;
     border: 1px solid #e6c55a;
 }
-
 
 @media (max-width: 900px) {
-
-	.footer-distributed{
-		font: bold 14px sans-serif;
-	}
-
-	.footer-distributed .footer-left,
-    .footer-distributed .footer-center,
-	.footer-distributed .footer-right{
-		display: block;
-		width: 100%;
-		margin-bottom: 40px;
-		text-align: center;
-	}
-
-    .footer-distributed .footer-center div{
+    .controle__margin {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        align-items: center;
     }
 
-	.footer-distributed .footer-center i{
-		margin-left: 0;
-	}
-	.main {
-		line-height: normal;
-		font-size: auto;
-	}
+    .footer-distributed .footer-center,
+    .footer-distributed .footer-left,
+    .footer-distributed .footer-right {
+        width: 80%;
+        padding-bottom: 5%;
+    }
 
+    .footer-distributed .footer-center div {
+        justify-content: center;
+    }
+}
+
+@media (max-width: 800px) {
+    .footer-distributed .footer-company-about {
+        line-height: 12px;
+    }
+
+    .footer-distributed .footer-center img {
+        width: 38px;
+        height: 38px;
+        margin: 5px 15px;
+    }
+
+    .footer-distributed .footer-icons a img {
+        width: 35px;
+        height: 35px;
+    }
+
+    .footer-distributed {
+        font-size: calc(0.2em + 3vw);
+    }
+
+    .footer-distributed .footer-company-about {
+        font-size: calc(0.2em + 3vw);
+    }
+
+    .footer-distributed .footer-company-about span {
+        padding-bottom: 10%;
+    }
+
+    .footer-distributed .footer-center p span {
+        font-size: calc(0.2em + 3vw);
+    }
+    .footer-distributed h3 {
+        font-size: calc(0.1em + 7vw);
+    }
+}
+
+@media (max-width: 700px) {
+    .footer-distributed .footer-company-about {
+        line-height: 12px;
+    }
+
+    .footer-distributed .footer-center img {
+        width: 38px;
+        height: 38px;
+        margin: 5px 15px;
+    }
+
+    .footer-distributed .footer-icons a img {
+        width: 35px;
+        height: 35px;
+    }
+
+    .footer-distributed {
+        font-size: calc(0.2em + 3vw);
+    }
+
+    .footer-distributed .footer-company-about {
+        font-size: calc(0.2em + 3vw);
+    }
+
+    .footer-distributed .footer-company-about span {
+        padding-bottom: 10%;
+    }
+
+    .footer-distributed .footer-center p span {
+        font-size: calc(0.2em + 3vw);
+    }
+    .footer-distributed h3 {
+        font-size: calc(0.1em + 7vw);
+    }
+}
+
+@media (max-width: 600px) {
+    .footer-distributed .footer-company-about {
+        line-height: 12px;
+    }
+
+    .footer-distributed .footer-center img {
+        width: 38px;
+        height: 38px;
+        margin: 5px 15px;
+    }
+
+    .footer-distributed .footer-icons a img {
+        width: 35px;
+        height: 35px;
+    }
+
+    .footer-distributed {
+        font-size: calc(0.2em + 3vw);
+    }
+
+    .footer-distributed .footer-company-about {
+        font-size: calc(0.2em + 3vw);
+    }
+
+    .footer-distributed .footer-company-about span {
+        padding-bottom: 10%;
+    }
+
+    .footer-distributed .footer-center p span {
+        font-size: calc(0.2em + 3vw);
+    }
+    .footer-distributed h3 {
+        font-size: calc(0.1em + 7vw);
+    }
+}
+
+@media (max-width: 500px) {
+    .footer-distributed .footer-company-about {
+        line-height: 12px;
+    }
+
+    .footer-distributed .footer-center img {
+        width: 34px;
+        height: 34px;
+        margin: 5px 15px;
+    }
+
+    .footer-distributed .footer-icons a img {
+        width: 32px;
+        height: 32px;
+    }
+
+    .footer-distributed {
+        font-size: calc(0.2em + 3vw);
+    }
+
+    .footer-distributed .footer-company-about {
+        font-size: calc(0.2em + 3vw);
+    }
+
+    .footer-distributed .footer-company-about span {
+        padding-bottom: 10%;
+    }
+
+    .footer-distributed .footer-center p span {
+        font-size: calc(0.2em + 3vw);
+    }
+    .footer-distributed h3 {
+        font-size: calc(0.1em + 7vw);
+    }
+}
+
+@media (max-width: 400px) {
+    .footer-distributed .footer-company-about {
+        line-height: 12px;
+    }
+
+    .footer-distributed .footer-center img {
+        width: 32px;
+        height: 32px;
+        margin: 5px 12px;
+    }
+
+    .footer-distributed .footer-icons a img {
+        width: 28px;
+        height: 28px;
+    }
+
+    .footer-distributed {
+        font-size: calc(0.2em + 3vw);
+    }
+
+    .footer-distributed .footer-company-about {
+        font-size: calc(0.2em + 3vw);
+    }
+
+    .footer-distributed .footer-company-about span {
+        margin-bottom: 8%;
+    }
+
+    .footer-distributed .footer-center p span {
+        font-size: calc(0.2em + 3vw);
+    }
+    .footer-distributed h3 {
+        font-size: calc(0.1em + 7vw);
+    }
+}
+
+@media (max-width: 300px) {
+    .footer-distributed .footer-company-about {
+        line-height: 12px;
+    }
+
+    .footer-distributed .footer-center img {
+        width: 28px;
+        height: 28px;
+        margin: 5px 10px;
+    }
+
+    .footer-distributed .footer-icons a img {
+        width: 26px;
+        height: 26px;
+    }
+
+    .footer-distributed {
+        font-size: calc(0.2em + 4vw);
+    }
+
+    .footer-distributed .footer-company-about {
+        font-size: calc(0.2em + 4vw);
+    }
+
+    .footer-distributed .footer-company-about span {
+        margin-bottom: 6%;
+    }
+
+    .footer-distributed .footer-center p span {
+        font-size: calc(0.2em + 4vw);
+    }
+    .footer-distributed h3 {
+        font-size: calc(0.1em + 7vw);
+    }
+}
+
+@media (max-width: 250px) {
+    .footer-distributed .footer-company-about {
+        line-height: 12px;
+    }
+
+    .footer-distributed .footer-center img {
+        width: 26px;
+        height: 26px;
+        margin: 5px 5px;
+    }
+
+    .footer-distributed .footer-icons a img {
+        width: 24px;
+        height: 24px;
+    }
+
+    .footer-distributed {
+        font-size: calc(0.2em + 4vw);
+    }
+
+    .footer-distributed .footer-company-about {
+        font-size: calc(0.2em + 4vw);
+    }
+
+    .footer-distributed .footer-company-about span {
+        margin-bottom: 4%;
+    }
+
+    .footer-distributed .footer-center p span {
+        font-size: calc(0.2em + 4vw);
+    }
+    .footer-distributed h3 {
+        font-size: calc(0.1em + 7vw);
+    }
+}
+
+@media (min-width: 100px) and (max-width: 200px) {
+    .footer-distributed .footer-company-about {
+        line-height: 10px;
+    }
+
+    .footer-distributed .footer-center img {
+        width: 24px;
+        height: 24px;
+        margin: 5px 5px;
+    }
+
+    .footer-distributed .footer-icons a img {
+        width: 22px;
+        height: 22px;
+    }
+
+    .footer-distributed {
+        font-size: calc(0.2em + 4vw);
+    }
+
+    .footer-distributed .footer-company-about {
+        font-size: calc(0.2em + 4vw);
+    }
+
+    .footer-distributed .footer-company-about span {
+        margin-bottom: 4%;
+    }
+
+    .footer-distributed .footer-center p span {
+        font-size: calc(0.2em + 4vw);
+    }
+    .footer-distributed h3 {
+        font-size: calc(0.1em + 9vw);
+    }
 }

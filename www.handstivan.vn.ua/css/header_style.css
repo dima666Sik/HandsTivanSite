@@ -338,6 +338,13 @@ select::-ms-expand {
 
 }
 
+@media (max-width: 800px) {
+    .select {
+        width: 23%;
+    }
+
+}
+
 @media (max-width: 700px) {
     .select {
         width: 25%;
@@ -391,6 +398,6 @@ select::-ms-expand {
 @media (min-width: 100px) and (max-width: 200px) {
     .select {
         width: 32.5%;
-        margin-top: 5%;
+        margin-top: 7%;
     }
 }

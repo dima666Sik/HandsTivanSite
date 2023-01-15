@@ -10,11 +10,11 @@
 	text-align: center;
 	font-size: calc(0.1em + 1.1vw);
 	line-height: 1.5;
-	color: #808080;
+	color: #F7F5EB;
 }
 
 .copyright__text span {
-	color: #aeaeae;
+	color: #F7F5EB;
 }
 
 @media (max-width: 900px) {
