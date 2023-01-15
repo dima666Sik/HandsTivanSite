@@ -129,7 +129,6 @@
     cursor: pointer;
     /* background-color: #33383b; */
     filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(10deg) brightness(100%) contrast(75%);
-    border-radius: 2px;
 
     font-size: 20px;
     color: #F7F5EB;
@@ -153,6 +152,7 @@
 }
 
 .icon {
+    border-radius: 2px;
     margin-right: 5%;
     border: 2px solid #e6c55a;
 }
