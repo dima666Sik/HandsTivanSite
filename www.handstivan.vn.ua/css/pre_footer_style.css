@@ -1,10 +1,9 @@
 .footer-distributed {
-    background-color: #292c2f;
-    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+    background-color: rgba(20, 20, 20, 0.838);
     box-sizing: border-box;
     width: 100%;
     text-align: left;
-    font: bold calc(0.1em + 1.25vw) sans-serif;
+    font: bold calc(0.1em + 1vw) sans-serif;
 
     padding: 3% 2%;
 }
@@ -63,17 +62,16 @@
 }
 
 .footer-distributed .footer-center img {
-    background-color: #33383b;
+    /* background-color: rgba(20, 20, 20, 0.838); */
     color: #F7F5EB;
     font-size: 25px;
     width: 38px;
     height: 38px;
-    border-radius: 50%;
     text-align: center;
     line-height: 42px;
     margin: 10px 15px;
     vertical-align: middle;
-    border: 1px solid #e6c55a;
+    filter: invert(60%) sepia(20%) saturate(2999%) hue-rotate(10deg) brightness(95%) contrast(55%);
 }
 
 .footer-distributed .footer-center i.fa-envelope {
@@ -91,7 +89,7 @@
 .footer-distributed .footer-center p span {
     display: block;
     font-weight: normal;
-    font-size: calc(0.1em + 1.25vw);
+    font-size: calc(0.1em + 1vw);
     line-height: 2;
 }
 
@@ -112,7 +110,7 @@
 .footer-distributed .footer-company-about {
     line-height: 20px;
     color: #92999f;
-    font-size: calc(0.1em + 1.25vw);
+    font-size: calc(0.1em + 1vw);
     font-weight: normal;
     margin: 0;
 }
@@ -129,17 +127,34 @@
     width: 35px;
     height: 35px;
     cursor: pointer;
-    background-color: #33383b;
+    /* background-color: #33383b; */
+    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(10deg) brightness(100%) contrast(75%);
     border-radius: 2px;
 
     font-size: 20px;
     color: #F7F5EB;
     text-align: center;
     line-height: 35px;
+}
 
-    margin-right: 3px;
-    margin-bottom: 5px;
-    border: 1px solid #e6c55a;
+.footer-distributed .footer-icons .icon:hover {
+    transition: 0.8s;
+    background-color: #e6c55a;
+}
+
+.footer-distributed .footer-icons .icon img:hover {
+    filter: none;
+    transition: 0.8s;
+}
+
+.footer-icons{
+    display: flex;
+    justify-content: center;
+}
+
+.icon {
+    margin-right: 5%;
+    border: 2px solid #e6c55a;
 }
 
 @media (max-width: 900px) {
@@ -193,6 +208,7 @@
     .footer-distributed .footer-center p span {
         font-size: calc(0.2em + 3vw);
     }
+
     .footer-distributed h3 {
         font-size: calc(0.1em + 7vw);
     }
@@ -229,6 +245,7 @@
     .footer-distributed .footer-center p span {
         font-size: calc(0.2em + 3vw);
     }
+
     .footer-distributed h3 {
         font-size: calc(0.1em + 7vw);
     }
@@ -265,6 +282,7 @@
     .footer-distributed .footer-center p span {
         font-size: calc(0.2em + 3vw);
     }
+
     .footer-distributed h3 {
         font-size: calc(0.1em + 7vw);
     }
@@ -301,6 +319,7 @@
     .footer-distributed .footer-center p span {
         font-size: calc(0.2em + 3vw);
     }
+
     .footer-distributed h3 {
         font-size: calc(0.1em + 7vw);
     }
@@ -337,6 +356,7 @@
     .footer-distributed .footer-center p span {
         font-size: calc(0.2em + 3vw);
     }
+
     .footer-distributed h3 {
         font-size: calc(0.1em + 7vw);
     }
@@ -373,6 +393,7 @@
     .footer-distributed .footer-center p span {
         font-size: calc(0.2em + 4vw);
     }
+
     .footer-distributed h3 {
         font-size: calc(0.1em + 7vw);
     }
@@ -409,6 +430,7 @@
     .footer-distributed .footer-center p span {
         font-size: calc(0.2em + 4vw);
     }
+
     .footer-distributed h3 {
         font-size: calc(0.1em + 7vw);
     }
@@ -445,6 +467,7 @@
     .footer-distributed .footer-center p span {
         font-size: calc(0.2em + 4vw);
     }
+
     .footer-distributed h3 {
         font-size: calc(0.1em + 9vw);
     }
