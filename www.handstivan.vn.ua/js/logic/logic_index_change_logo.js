@@ -5,5 +5,5 @@ let flagClick = true;
 
 function changeSizeLogo() {
     if (flagClick) { getLogo.style.maxWidth = "50%"; flagClick = false; }
-    else { getLogo.style.maxWidth = "15%"; flagClick = true; }
+    else { getLogo.style.maxWidth = ""; flagClick = true; }
 }
