@@ -60,7 +60,7 @@ export const langArr = {
         "ru": "Подарочные сертификаты"
     },
 
-    "hero__inner": {
+    "hero__inner__p3": {
         "ua": "Місто Вінниця",
         "ru": "Город Винница"
     },

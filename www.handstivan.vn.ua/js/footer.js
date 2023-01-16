@@ -17,7 +17,7 @@ document.write('    <footer class="footer__section">\
           <div class="footer__img__st">\
           <img src="../img/footer/phone.png" alt="">\
           </div>\
-          <p class="footer__inner__p__st">+38 (097)477 55 34</p>\
+          <a href="tel:+380974775534" style="color: #F7F5EB;"><p class="footer__inner__p__st">+38 (097)477 55 34</p></a>\
         </div>\
         <div>\
           <div class="footer__img__st">\
