@@ -160,9 +160,9 @@
         background: #b63b2c;
         color: #F7F5EB;
         text-decoration-color: #F7F5EB;
-        padding: 13px 5px;
+        padding: 20px 6px;
         border-radius: 50%;
-        font-size: 5px;
+        font-size: 8px;
     }
 }
 
@@ -175,8 +175,8 @@
         background: #b63b2c;
         color: #F7F5EB;
         text-decoration-color: #F7F5EB;
-        padding: 7px 4px;
+        padding: 16px 6px;
         border-radius: 50%;
-        font-size: 2px;
+        font-size: 6px;
     }
 }
