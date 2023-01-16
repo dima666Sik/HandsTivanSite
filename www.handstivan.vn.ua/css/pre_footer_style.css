@@ -133,7 +133,7 @@
 
 .footer__distributed .footer__icons .icon:hover {
     transition: 0.8s;
-    background-color: #e6c55a;
+    background-color: #e6c55add;
 }
 
 .footer__distributed .footer__icons .icon img:hover {
@@ -149,7 +149,7 @@
 .icon {
     border-radius: 2px;
     margin-right: 5%;
-    border: 2px solid #e6c55a;
+    border: 2px solid #e6c55add;
 }
 
 @media (max-width: 900px) {
