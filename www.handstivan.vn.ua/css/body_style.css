@@ -31,3 +31,18 @@ h5 {
     font-size: calc(0.1em + 0.5vw);
 }
 
+/* scroll edit */
+::-webkit-scrollbar {
+    width: 5px;
+    /* ширина нового скроллбара */
+}
+
+::-webkit-scrollbar-track {
+    background: rgb(50, 38, 27);
+    /* цвет фона у дорожки */
+}
+
+::-webkit-scrollbar-thumb {
+    border: 3px solid rgb(82, 59, 28);
+    /* толщина, стиль и цвет рамки */
+}
