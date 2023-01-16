@@ -1,33 +1,238 @@
 .container__rules {
-    border:2px solid red;
+    background-color: #F7F5EB;
+    border: 2px solid red;
 }
+
 .about__us {
-    border:2px solid red;
+    border: 2px solid red;
 }
+
 .rules__for__our__clients {
-    border:2px solid red;
+    border: 2px solid red;
 }
+
 .record {
-    border:2px solid red;
+    border: 2px solid red;
 }
+
 .choise__master {
-    border:2px solid red;
+    border: 2px solid red;
 }
+
 .deposit {
-    border:2px solid red;
+    border: 2px solid red;
 }
+
 .time {
-    border:2px solid red;
+    border: 2px solid red;
 }
+
 .late {
-    border:2px solid red;
+    border: 2px solid red;
 }
+
 .cancel__or__transfer {
-    border:2px solid red;
+    border: 2px solid red;
 }
+
 .rules__for__gift__certificates {
-    border:2px solid red;
+    border: 2px solid red;
 }
+
 .video__with__cooments__about__massage {
-    border:2px solid red;
+    border: 2px solid red;
+}
+
+.video__content {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 4%;
+}
+
+.section__subtitle {
+    color: #050505;
+    text-transform: uppercase;
+    text-align: center;
+    padding-bottom: 4%;
+}
+
+.video__youtube {
+    width:33.3%;
+    height: 300px;
+}
+
+
+@media (min-width: 1950px) {
+    .video__youtube {
+        height: 500px;
+    }
+}
+
+@media (min-width: 1850px) {
+    .video__youtube {
+        height: 400px;
+    }
+}
+
+@media (max-width: 900px) {
+    .video__content {
+        display: flex;
+        padding-bottom: 4%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #video__youtube__1{
+        padding-bottom: 4%;
+    }
+
+    .video__youtube {
+        width:60%;
+        height: 300px;
+    }
+}
+
+@media (max-width: 800px) {
+    .video__content {
+        display: flex;
+        padding-bottom: 4%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #video__youtube__1{
+        padding-bottom: 4%;
+    }
+
+    .video__youtube {
+        width:60%;
+        height: 250px;
+    }
+}
+
+@media (max-width: 700px) {
+    .video__content {
+        display: flex;
+        padding-bottom: 4%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #video__youtube__1{
+        padding-bottom: 4%;
+    }
+
+    .video__youtube {
+        width:60%;
+        height: 250px;
+    }
+
+}
+
+@media (max-width: 600px) {
+    .video__content {
+        display: flex;
+        padding-bottom: 4%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #video__youtube__1{
+        padding-bottom: 4%;
+    }
+
+    .video__youtube {
+        width:65%;
+        height: 200px;
+    }
+}
+
+@media (max-width: 500px) {
+    .video__content {
+        display: flex;
+        padding-bottom: 4%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #video__youtube__1{
+        padding-bottom: 4%;
+    }
+
+    .video__youtube {
+        width:60%;
+        height: 180px;
+    }
+}
+
+@media (max-width: 400px) {
+    .video__content {
+        display: flex;
+        padding-bottom: 4%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #video__youtube__1{
+        padding-bottom: 4%;
+    }
+
+    .video__youtube {
+        width:60%;
+        height: 140px;
+    }
+}
+
+@media (max-width: 300px) {
+    .video__content {
+        display: flex;
+        padding-bottom: 4%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #video__youtube__1{
+        padding-bottom: 4%;
+    }
+
+    .video__youtube {
+        width:60%;
+        height: 140px;
+    }
+}
+
+@media (max-width: 250px) {
+    .video__content {
+        display: flex;
+        padding-bottom: 4%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #video__youtube__1{
+        padding-bottom: 4%;
+    }
+
+    .video__youtube {
+        width:60%;
+        height: 140px;
+    }
+}
+
+@media (min-width: 100px) and (max-width: 200px) {
+    .video__content {
+        display: flex;
+        padding-bottom: 4%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #video__youtube__1{
+        padding-bottom: 4%;
+    }
+
+    .video__youtube {
+        width:60%;
+        height: 140px;
+    }
 }
