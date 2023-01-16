@@ -16,7 +16,7 @@ document.write('<header id="header" class="header">\
         <nav class="nav">\
           <ul class="menu">\
             <li>\
-              <a id="lng__services__ul" class="lng__services__ul" href="#services">Послуги</a>\
+              <a id="lng__services__ul" class="lng__services__ul" href="index.html">Послуги</a>\
               <ul class="menu__under">\
                 <li><a id="lng__spa" class="lng__spa" href="#">SPA програми</a></li>\
                 <li><a id="lng__tai__massage" class="lng__tai__massage" href="#">Тайський масаж</a></li>\
