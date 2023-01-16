@@ -38,11 +38,11 @@ h5 {
 }
 
 ::-webkit-scrollbar-track {
-    background: rgb(50, 38, 27);
+    background: rgb(82, 59, 28);
     /* цвет фона у дорожки */
 }
 
 ::-webkit-scrollbar-thumb {
-    border: 3px solid rgb(82, 59, 28);
+    border: 3px solid rgb(50, 38, 27);
     /* толщина, стиль и цвет рамки */
 }

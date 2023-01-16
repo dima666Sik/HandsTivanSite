@@ -3,7 +3,7 @@
     box-sizing: border-box;
     width: 100%;
     text-align: left;
-    font: bold calc(0.1em + 1vw) sans-serif;
+    font: bold calc(0.1em + 1.5vw) sans-serif;
 
     padding: 3% 2%;
 }
@@ -34,7 +34,7 @@
 
 .footer__distributed h3 {
     color: #F7F5EB;
-    font: normal calc(0.9em + 2.5vw) 'Cookie', cursive;
+    font: normal calc(0.9em + 2.7vw) 'Cookie', cursive;
     margin: 0;
 }
 
@@ -84,7 +84,7 @@
 .footer__distributed .footer__center p span {
     display: block;
     font-weight: normal;
-    font-size: calc(0.1em + 1vw);
+    font-size: calc(0.1em + 1.5vw);
     line-height: 2;
 }
 
@@ -105,7 +105,7 @@
 .footer__distributed .footer__company__about {
     line-height: 20px;
     color: #92999f;
-    font-size: calc(0.1em + 1vw);
+    font-size: calc(0.1em + 1.5vw);
     font-weight: normal;
     margin: 0;
 }
@@ -204,6 +204,14 @@
         font-size: calc(0.2em + 3vw);
     }
 
+    .footer__distributed .footer__center p span {
+        font-size: calc(0.2em + 3vw);
+    }
+    .footer__distributed .footer__center p,
+    .footer__distributed .footer__center p a 
+    {
+        font-size: calc(0.2em + 3vw);
+    }
     .footer__distributed h3 {
         font-size: calc(0.1em + 7vw);
     }
@@ -238,6 +246,12 @@
     }
 
     .footer__distributed .footer__center p span {
+        font-size: calc(0.2em + 3vw);
+    }
+
+    .footer__distributed .footer__center p,
+    .footer__distributed .footer__center p a 
+    {
         font-size: calc(0.2em + 3vw);
     }
 
@@ -278,6 +292,12 @@
         font-size: calc(0.2em + 3vw);
     }
 
+    .footer__distributed .footer__center p,
+    .footer__distributed .footer__center p a 
+    {
+        font-size: calc(0.2em + 3vw);
+    }
+
     .footer__distributed h3 {
         font-size: calc(0.1em + 7vw);
     }
@@ -312,6 +332,12 @@
     }
 
     .footer__distributed .footer__center p span {
+        font-size: calc(0.2em + 3vw);
+    }
+
+    .footer__distributed .footer__center p,
+    .footer__distributed .footer__center p a 
+    {
         font-size: calc(0.2em + 3vw);
     }
 
@@ -352,6 +378,12 @@
         font-size: calc(0.2em + 3vw);
     }
 
+    .footer__distributed .footer__center p,
+    .footer__distributed .footer__center p a 
+    {
+        font-size: calc(0.2em + 3vw);
+    }
+
     .footer__distributed h3 {
         font-size: calc(0.1em + 7vw);
     }
@@ -386,6 +418,12 @@
     }
 
     .footer__distributed .footer__center p span {
+        font-size: calc(0.2em + 4vw);
+    }
+
+    .footer__distributed .footer__center p,
+    .footer__distributed .footer__center p a 
+    {
         font-size: calc(0.2em + 4vw);
     }
 
@@ -426,6 +464,12 @@
         font-size: calc(0.2em + 4vw);
     }
 
+    .footer__distributed .footer__center p,
+    .footer__distributed .footer__center p a 
+    {
+        font-size: calc(0.2em + 4vw);
+    }
+
     .footer__distributed h3 {
         font-size: calc(0.1em + 7vw);
     }
@@ -460,6 +504,12 @@
     }
 
     .footer__distributed .footer__center p span {
+        font-size: calc(0.2em + 4vw);
+    }
+
+    .footer__distributed .footer__center p,
+    .footer__distributed .footer__center p a 
+    {
         font-size: calc(0.2em + 4vw);
     }
 
