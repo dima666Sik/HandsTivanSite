@@ -1,4 +1,4 @@
-.footer-distributed {
+.footer__distributed {
     background-color: rgba(20, 20, 20, 0.838);
     box-sizing: border-box;
     width: 100%;
@@ -13,43 +13,43 @@
     justify-content: space-between;
 }
 
-.footer-distributed .footer-left,
-.footer-distributed .footer-center,
-.footer-distributed .footer-right {
+.footer__distributed .footer__left,
+.footer__distributed .footer__center,
+.footer__distributed .footer__right {
     display: inline-block;
     vertical-align: top;
 }
 
-.footer-distributed .footer-center div {
+.footer__distributed .footer__center div {
     display: flex;
     align-items: center;
 }
 
-.footer-distributed .footer-left {
+.footer__distributed .footer__left {
     width: 40%;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.footer-distributed h3 {
+.footer__distributed h3 {
     color: #F7F5EB;
     font: normal calc(0.9em + 2.5vw) 'Cookie', cursive;
     margin: 0;
 }
 
-.footer-distributed h3 span {
+.footer__distributed h3 span {
     color: #e6c55a;
 }
 
 
-.footer-distributed .footer-links {
+.footer__distributed .footer-links {
     color: #F7F5EB;
     margin: 20px 0 12px;
     padding: 0;
 }
 
-.footer-distributed .footer-links a {
+.footer__distributed .footer-links a {
     display: inline-block;
     line-height: 1.8;
     text-decoration: none;
@@ -57,11 +57,11 @@
 }
 
 
-.footer-distributed .footer-center {
+.footer__distributed .footer__center {
     width: 35%;
 }
 
-.footer-distributed .footer-center img {
+.footer__distributed .footer__center img {
     /* background-color: rgba(20, 20, 20, 0.838); */
     color: #F7F5EB;
     font-size: 25px;
@@ -74,32 +74,27 @@
     filter: invert(60%) sepia(20%) saturate(2999%) hue-rotate(10deg) brightness(95%) contrast(55%);
 }
 
-.footer-distributed .footer-center i.fa-envelope {
-    font-size: 17px;
-    line-height: 38px;
-}
-
-.footer-distributed .footer-center p {
+.footer__distributed .footer__center p {
     display: inline-block;
     color: #F7F5EB;
     vertical-align: middle;
     margin: 0;
 }
 
-.footer-distributed .footer-center p span {
+.footer__distributed .footer__center p span {
     display: block;
     font-weight: normal;
     font-size: calc(0.1em + 1vw);
     line-height: 2;
 }
 
-.footer-distributed .footer-center p a {
+.footer__distributed .footer__center p a {
     color: #e6c55a;
     text-decoration: none;
     ;
 }
 
-.footer-distributed .footer-right {
+.footer__distributed .footer__right {
     width: 20%;
     display: flex;
     flex-direction: column;
@@ -107,7 +102,7 @@
     align-items: center;
 }
 
-.footer-distributed .footer-company-about {
+.footer__distributed .footer__company__about {
     line-height: 20px;
     color: #92999f;
     font-size: calc(0.1em + 1vw);
@@ -115,14 +110,14 @@
     margin: 0;
 }
 
-.footer-distributed .footer-company-about span {
+.footer__distributed .footer__company__about span {
     display: block;
     color: #F7F5EB;
     font-weight: bold;
     margin-bottom: 5%;
 }
 
-.footer-distributed .footer-icons a img {
+.footer__distributed .footer__icons a img {
     display: inline-block;
     width: 35px;
     height: 35px;
@@ -136,17 +131,17 @@
     line-height: 35px;
 }
 
-.footer-distributed .footer-icons .icon:hover {
+.footer__distributed .footer__icons .icon:hover {
     transition: 0.8s;
     background-color: #e6c55a;
 }
 
-.footer-distributed .footer-icons .icon img:hover {
+.footer__distributed .footer__icons .icon img:hover {
     filter: none;
     transition: 0.8s;
 }
 
-.footer-icons{
+.footer__icons{
     display: flex;
     justify-content: center;
 }
@@ -165,310 +160,310 @@
         align-items: center;
     }
 
-    .footer-distributed .footer-center,
-    .footer-distributed .footer-left,
-    .footer-distributed .footer-right {
+    .footer__distributed .footer__center,
+    .footer__distributed .footer__left,
+    .footer__distributed .footer__right {
         width: 80%;
         padding-bottom: 5%;
     }
 
-    .footer-distributed .footer-center div {
+    .footer__distributed .footer__center div {
         justify-content: center;
     }
 }
 
 @media (max-width: 800px) {
-    .footer-distributed .footer-company-about {
+    .footer__distributed .footer__company__about {
         line-height: 12px;
     }
 
-    .footer-distributed .footer-center img {
+    .footer__distributed .footer__center img {
         width: 38px;
         height: 38px;
         margin: 5px 15px;
     }
 
-    .footer-distributed .footer-icons a img {
+    .footer__distributed .footer__icons a img {
         width: 35px;
         height: 35px;
     }
 
-    .footer-distributed {
+    .footer__distributed {
         font-size: calc(0.2em + 3vw);
     }
 
-    .footer-distributed .footer-company-about {
+    .footer__distributed .footer__company__about {
         font-size: calc(0.2em + 3vw);
     }
 
-    .footer-distributed .footer-company-about span {
+    .footer__distributed .footer__company__about span {
         padding-bottom: 10%;
     }
 
-    .footer-distributed .footer-center p span {
+    .footer__distributed .footer__center p span {
         font-size: calc(0.2em + 3vw);
     }
 
-    .footer-distributed h3 {
+    .footer__distributed h3 {
         font-size: calc(0.1em + 7vw);
     }
 }
 
 @media (max-width: 700px) {
-    .footer-distributed .footer-company-about {
+    .footer__distributed .footer__company__about {
         line-height: 12px;
     }
 
-    .footer-distributed .footer-center img {
+    .footer__distributed .footer__center img {
         width: 38px;
         height: 38px;
         margin: 5px 15px;
     }
 
-    .footer-distributed .footer-icons a img {
+    .footer__distributed .footer__icons a img {
         width: 35px;
         height: 35px;
     }
 
-    .footer-distributed {
+    .footer__distributed {
         font-size: calc(0.2em + 3vw);
     }
 
-    .footer-distributed .footer-company-about {
+    .footer__distributed .footer__company__about {
         font-size: calc(0.2em + 3vw);
     }
 
-    .footer-distributed .footer-company-about span {
+    .footer__distributed .footer__company__about span {
         padding-bottom: 10%;
     }
 
-    .footer-distributed .footer-center p span {
+    .footer__distributed .footer__center p span {
         font-size: calc(0.2em + 3vw);
     }
 
-    .footer-distributed h3 {
+    .footer__distributed h3 {
         font-size: calc(0.1em + 7vw);
     }
 }
 
 @media (max-width: 600px) {
-    .footer-distributed .footer-company-about {
+    .footer__distributed .footer__company__about {
         line-height: 12px;
     }
 
-    .footer-distributed .footer-center img {
+    .footer__distributed .footer__center img {
         width: 38px;
         height: 38px;
         margin: 5px 15px;
     }
 
-    .footer-distributed .footer-icons a img {
+    .footer__distributed .footer__icons a img {
         width: 35px;
         height: 35px;
     }
 
-    .footer-distributed {
+    .footer__distributed {
         font-size: calc(0.2em + 3vw);
     }
 
-    .footer-distributed .footer-company-about {
+    .footer__distributed .footer__company__about {
         font-size: calc(0.2em + 3vw);
     }
 
-    .footer-distributed .footer-company-about span {
+    .footer__distributed .footer__company__about span {
         padding-bottom: 10%;
     }
 
-    .footer-distributed .footer-center p span {
+    .footer__distributed .footer__center p span {
         font-size: calc(0.2em + 3vw);
     }
 
-    .footer-distributed h3 {
+    .footer__distributed h3 {
         font-size: calc(0.1em + 7vw);
     }
 }
 
 @media (max-width: 500px) {
-    .footer-distributed .footer-company-about {
+    .footer__distributed .footer__company__about {
         line-height: 12px;
     }
 
-    .footer-distributed .footer-center img {
+    .footer__distributed .footer__center img {
         width: 34px;
         height: 34px;
         margin: 5px 15px;
     }
 
-    .footer-distributed .footer-icons a img {
+    .footer__distributed .footer__icons a img {
         width: 32px;
         height: 32px;
     }
 
-    .footer-distributed {
+    .footer__distributed {
         font-size: calc(0.2em + 3vw);
     }
 
-    .footer-distributed .footer-company-about {
+    .footer__distributed .footer__company__about {
         font-size: calc(0.2em + 3vw);
     }
 
-    .footer-distributed .footer-company-about span {
+    .footer__distributed .footer__company__about span {
         padding-bottom: 10%;
     }
 
-    .footer-distributed .footer-center p span {
+    .footer__distributed .footer__center p span {
         font-size: calc(0.2em + 3vw);
     }
 
-    .footer-distributed h3 {
+    .footer__distributed h3 {
         font-size: calc(0.1em + 7vw);
     }
 }
 
 @media (max-width: 400px) {
-    .footer-distributed .footer-company-about {
+    .footer__distributed .footer__company__about {
         line-height: 12px;
     }
 
-    .footer-distributed .footer-center img {
+    .footer__distributed .footer__center img {
         width: 32px;
         height: 32px;
         margin: 5px 12px;
     }
 
-    .footer-distributed .footer-icons a img {
+    .footer__distributed .footer__icons a img {
         width: 28px;
         height: 28px;
     }
 
-    .footer-distributed {
+    .footer__distributed {
         font-size: calc(0.2em + 3vw);
     }
 
-    .footer-distributed .footer-company-about {
+    .footer__distributed .footer__company__about {
         font-size: calc(0.2em + 3vw);
     }
 
-    .footer-distributed .footer-company-about span {
+    .footer__distributed .footer__company__about span {
         margin-bottom: 8%;
     }
 
-    .footer-distributed .footer-center p span {
+    .footer__distributed .footer__center p span {
         font-size: calc(0.2em + 3vw);
     }
 
-    .footer-distributed h3 {
+    .footer__distributed h3 {
         font-size: calc(0.1em + 7vw);
     }
 }
 
 @media (max-width: 300px) {
-    .footer-distributed .footer-company-about {
+    .footer__distributed .footer__company__about {
         line-height: 12px;
     }
 
-    .footer-distributed .footer-center img {
+    .footer__distributed .footer__center img {
         width: 28px;
         height: 28px;
         margin: 5px 10px;
     }
 
-    .footer-distributed .footer-icons a img {
+    .footer__distributed .footer__icons a img {
         width: 26px;
         height: 26px;
     }
 
-    .footer-distributed {
+    .footer__distributed {
         font-size: calc(0.2em + 4vw);
     }
 
-    .footer-distributed .footer-company-about {
+    .footer__distributed .footer__company__about {
         font-size: calc(0.2em + 4vw);
     }
 
-    .footer-distributed .footer-company-about span {
+    .footer__distributed .footer__company__about span {
         margin-bottom: 6%;
     }
 
-    .footer-distributed .footer-center p span {
+    .footer__distributed .footer__center p span {
         font-size: calc(0.2em + 4vw);
     }
 
-    .footer-distributed h3 {
+    .footer__distributed h3 {
         font-size: calc(0.1em + 7vw);
     }
 }
 
 @media (max-width: 250px) {
-    .footer-distributed .footer-company-about {
+    .footer__distributed .footer__company__about {
         line-height: 12px;
     }
 
-    .footer-distributed .footer-center img {
+    .footer__distributed .footer__center img {
         width: 26px;
         height: 26px;
         margin: 5px 5px;
     }
 
-    .footer-distributed .footer-icons a img {
+    .footer__distributed .footer__icons a img {
         width: 24px;
         height: 24px;
     }
 
-    .footer-distributed {
+    .footer__distributed {
         font-size: calc(0.2em + 4vw);
     }
 
-    .footer-distributed .footer-company-about {
+    .footer__distributed .footer__company__about {
         font-size: calc(0.2em + 4vw);
     }
 
-    .footer-distributed .footer-company-about span {
+    .footer__distributed .footer__company__about span {
         margin-bottom: 4%;
     }
 
-    .footer-distributed .footer-center p span {
+    .footer__distributed .footer__center p span {
         font-size: calc(0.2em + 4vw);
     }
 
-    .footer-distributed h3 {
+    .footer__distributed h3 {
         font-size: calc(0.1em + 7vw);
     }
 }
 
 @media (min-width: 100px) and (max-width: 200px) {
-    .footer-distributed .footer-company-about {
+    .footer__distributed .footer__company__about {
         line-height: 10px;
     }
 
-    .footer-distributed .footer-center img {
+    .footer__distributed .footer__center img {
         width: 24px;
         height: 24px;
         margin: 5px 5px;
     }
 
-    .footer-distributed .footer-icons a img {
+    .footer__distributed .footer__icons a img {
         width: 22px;
         height: 22px;
     }
 
-    .footer-distributed {
+    .footer__distributed {
         font-size: calc(0.2em + 4vw);
     }
 
-    .footer-distributed .footer-company-about {
+    .footer__distributed .footer__company__about {
         font-size: calc(0.2em + 4vw);
     }
 
-    .footer-distributed .footer-company-about span {
+    .footer__distributed .footer__company__about span {
         margin-bottom: 4%;
     }
 
-    .footer-distributed .footer-center p span {
+    .footer__distributed .footer__center p span {
         font-size: calc(0.2em + 4vw);
     }
 
-    .footer-distributed h3 {
+    .footer__distributed h3 {
         font-size: calc(0.1em + 9vw);
     }
 }
