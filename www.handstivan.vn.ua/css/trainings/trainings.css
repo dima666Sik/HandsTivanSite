@@ -67,8 +67,6 @@
 .grid__img__container {
 	height: 100%;
 	position: relative;
-	/* display: flex; */
-	cursor: pointer;
 }
 
 .grid__item__img {
