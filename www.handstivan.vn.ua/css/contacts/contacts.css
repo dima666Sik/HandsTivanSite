@@ -5,6 +5,7 @@
 }
 .text__to__map__p{
     font: calc(0.1em + 1.5vw) sans-serif;
+    line-height: 1.5;
 }
 
 .container__gallery h3{
