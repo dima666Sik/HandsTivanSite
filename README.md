@@ -36,6 +36,6 @@ You can check my work by clicking on this link: https://dima666sik.github.io/Han
   - For two ❌
 - Rules ☑️ 
 - Contacts ☑️ 
-- Price and Discount ❌
+- Price and Discount ☑️ 
 - Trainings ❌
 - Gift certificates ❌
