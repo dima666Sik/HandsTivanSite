@@ -46,3 +46,8 @@ h5 {
     border: 3px solid rgb(50, 38, 27);
     /* толщина, стиль и цвет рамки */
 }
+
+.container__gallery {
+	background-color: #F7F5EB;
+	padding: 2.5%;
+}
