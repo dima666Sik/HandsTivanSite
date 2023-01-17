@@ -3,60 +3,7 @@
     /* border: 2px solid red; */
     text-align: center;
 }
-
-.rules__for__our__clients {
-    /* border: 2px solid red; */
-    padding-bottom: 4%;
-}
-
-.record {
-    /* border: 2px solid red; */
-    padding-bottom: 4%;
-}
-
-.choise__master {
-    /* border: 2px solid red; */
-    padding-bottom: 4%;
-}
-
-.deposit {
-    /* border: 2px solid red; */
-    padding-bottom: 4%;
-}
-
-.time {
-    /* border: 2px solid red; */
-    padding-bottom: 4%;
-}
-
-.late {
-    /* border: 2px solid red; */
-    padding-bottom: 4%;
-}
-
-.cancel__or__transfer {
-    /* border: 2px solid red; */
-    padding-bottom: 4%;
-}
-
-.rules__for__gift__certificates {
-    /* border: 2px solid red; */
-    padding-bottom: 4%;
-}
-
-.video__with__cooments__about__massage {
-    /* border: 2px solid red; */
-    padding-bottom: 4%;
-}
-
 .rules__for__abonents{
-    /* border: 2px solid red; */
-    padding-bottom: 4%;
-}
-
-.video__content {
-    display: flex;
-    justify-content: space-around;
     padding-bottom: 4%;
 }
 
@@ -67,38 +14,69 @@
     padding-bottom: 4%;
 }
 
-.video__youtube {
-    width: 33.3%;
-    height: 300px;
+.about__us,
+.abonoment,
+.discount__abonoment{
+    padding-bottom: 4%;
 }
 
-.section__subtitle__special {
+.rules__text{
+    text-indent: 25px;
+    font: calc(0.1em + 1.5vw) sans-serif;
+    line-height: 1.5;
+}
+
+.rules__text__bold{
+    text-indent: 25px;
+    font: calc(0.1em + 1.5vw) sans-serif;
+    line-height: 1.5;
+    font-weight: bold;
+}
+.section__with__p__img img{
+    border:4px solid #E2C374;
+}
+
+/* Line */
+.line {
+    width: 200px;
+    border-top: 2px solid #e6c55a;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+    margin-bottom: 1%;
+}
+
+/* Line large*/
+.line__large {
+    width: 98.5%;
+    border-top: 3px solid #e6c55a;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2px;
+}
+.section__with__p__img{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly
+}
+.rules__subtilte img{
+    width: 4%;
+}
+.rules__subtilte{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.section__subtitle__sp{
     color: #050505;
     text-transform: uppercase;
     text-align: center;
     margin-left: 1.5%;
 }
 
-.rules__subtilte {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding-bottom: 4%;
-}
-.about__us{
-    padding-bottom: 4%;
-}
-.about__us img {
-    width: 4%;
-    filter: invert(60%) sepia(20%) saturate(2999%) hue-rotate(10deg) brightness(95%) contrast(55%);
-}
-
-.rules__text, .rules__text__sp {
-    text-indent: 25px;
-    font: calc(0.1em + 1.5vw) sans-serif;
-}
-.rules__text{
-    line-height: 1.5;
+.abonoment,
+.recomendation{
+    margin-top: 4%;
 }
 /* Button */
 .rules__btns {
