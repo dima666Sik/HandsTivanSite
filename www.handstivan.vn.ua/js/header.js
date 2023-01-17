@@ -33,7 +33,7 @@ document.write('<header id="header" class="header">\
             <li><a id="lng__price__and__discounts" class="lng__price__and__discounts" href="price_and_discounts.html">Ціни та знижки</a></li>\
             <li><a id="lng__trainings" class="lng__trainings" href="trainings.html">Тренінги</a></li>\
             <li>\
-              <a id="lng__gift__certificates" class="lng__gift__certificates" href="#gift__certificates">Подарункові сертифікати</a>\
+              <a id="lng__gift__certificates" class="lng__gift__certificates" href="gift_certificates.html">Подарункові сертифікати</a>\
             </li>\
           </ul>\
         </nav>\
