@@ -1,15 +1,3 @@
-/* Hero */
-.style__header__to__else__page{
-    position: fixed;
-    z-index: 1;
-    width: 100%;
-}
-
-.position_header{
-    position: sticky;
-    top: 0;
-    z-index: 3;
-}
 
 .main{
     position: relative;

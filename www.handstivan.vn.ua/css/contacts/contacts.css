@@ -1,0 +1,265 @@
+.google__map {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.text__to__map__p{
+    font: calc(0.1em + 1.5vw) sans-serif;
+}
+
+.container__gallery h3{
+    color: #050505;
+    text-transform: uppercase;
+    text-align: center;
+    padding-bottom: 4%;
+}
+
+@media (min-width: 1810px) {
+
+    .google__map iframe{
+        width: 1000px;
+        height: 800px;
+    }
+    .text__to__map{
+        margin-left: 5%;
+    }
+}
+
+@media (max-width: 1800px) {
+
+    .google__map iframe{
+        width: 560px;
+        height: 360px;
+    }
+    .text__to__map{
+        margin-left: 5%;
+    }
+
+}
+
+
+@media (max-width: 1700px) {
+
+    .google__map iframe{
+        width: 540px;
+        height: 360px;
+    }
+    .text__to__map{
+        margin-left: 5%;
+    }
+
+}
+
+
+@media (max-width: 1600px) {
+
+    .google__map iframe{
+        width: 520px;
+        height: 360px;
+    }
+    .text__to__map{
+        margin-left: 5%;
+    }
+}
+
+
+@media (max-width: 1400px) {
+
+    .google__map iframe{
+        width: 510px;
+        height: 360px;
+    }
+    .text__to__map{
+        margin-left: 5%;
+    }
+}
+
+
+@media (max-width: 1300px) {
+
+    .google__map iframe{
+        width: 500px;
+        height: 360px;
+    }
+    .text__to__map{
+        margin-left: 5%;
+    }
+}
+
+
+@media (max-width: 1200px) {
+
+    .google__map iframe{
+        width: 480px;
+        height: 350px;
+    }
+    .text__to__map{
+        margin-left: 5%;
+    }
+}
+
+@media (max-width: 1100px) {
+
+    .google__map iframe{
+        width: 440px;
+        height: 350px;
+    }
+    .text__to__map{
+        margin-left: 5%;
+    }
+}
+
+@media (max-width: 1000px) {
+
+    .google__map iframe{
+        width: 400px;
+        height: 350px;
+    }
+    .text__to__map{
+        margin-left: 5%;
+    }
+}
+
+@media (max-width: 900px) {
+    .google__map {
+        display: block;
+    }
+    .google__map iframe{
+        width: 100%;
+        height: 350px;
+    }
+    .text__to__map{
+        text-align: center;
+    }
+    .text__to__map{
+        margin-left: 0%;
+    }
+}
+
+@media (max-width: 800px) {
+    .google__map {
+        display: block;
+    }
+    .google__map iframe{
+        width: 100%;
+        height: 320px;
+    }
+    .text__to__map{
+        text-align: center;
+    }
+    .text__to__map{
+        margin-left: 0%;
+    }
+}
+
+@media (max-width: 700px) {
+    .google__map {
+        display: block;
+    }
+    .google__map iframe{
+        width: 100%;
+        height: 260px;
+    }
+    .text__to__map{
+        text-align: center;
+    }
+    .text__to__map{
+        margin-left: 0%;
+    }
+}
+
+@media (max-width: 600px) {
+    .google__map {
+        display: block;
+    }
+    .google__map iframe{
+        width: 100%;
+        height: 230px;
+    }
+    .text__to__map{
+        text-align: center;
+    }
+    .text__to__map{
+        margin-left: 0%;
+    }
+}
+
+@media (max-width: 500px) {
+    .google__map {
+        display: block;
+    }
+    .google__map iframe{
+        width: 100%;
+        height: 150px;
+    }
+    .text__to__map{
+        text-align: center;
+    }
+    .text__to__map{
+        margin-left: 0%;
+    }
+}
+
+@media (max-width: 400px) {
+    .google__map {
+        display: block;
+    }
+    .google__map iframe{
+        width: 100%;
+        height: 120px;
+    }
+    .text__to__map{
+        text-align: center;
+    }
+    .text__to__map{
+        margin-left: 0%;
+    }
+}
+
+@media (max-width: 300px) {
+    .google__map {
+        display: block;
+    }
+    .google__map iframe{
+        width: 100%;
+        height: 100px;
+    }
+    .text__to__map{
+        text-align: center;
+    }
+    .text__to__map{
+        margin-left: 0%;
+    }
+}
+
+@media (max-width: 250px) {
+    .google__map {
+        display: block;
+    }
+    .google__map iframe{
+        width: 100%;
+        height: 70px;
+    }
+    .text__to__map{
+        text-align: center;
+    }
+    .text__to__map{
+        margin-left: 0%;
+    }
+}
+
+@media (min-width: 100px) and (max-width: 200px) {
+    .google__map {
+        display: block;
+    }
+    .google__map iframe{
+        width: 100%;
+        height: 80px;
+    }
+    .text__to__map{
+        text-align: center;
+    }
+    .text__to__map{
+        margin-left: 0%;
+    }
+}

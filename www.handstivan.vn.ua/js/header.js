@@ -29,7 +29,7 @@ document.write('<header id="header" class="header">\
               </ul>\
             </li>\
             <li><a id="lng__rules" class="lng__rules" href="rules.html">Правила</a></li>\
-            <li><a id="lng__contacts" class="lng__contacts" href="#contacts">Контакти</a></li>\
+            <li><a id="lng__contacts" class="lng__contacts" href="contacts.html">Контакти</a></li>\
             <li><a id="lng__price__and__discounts" class="lng__price__and__discounts" href="#price__and__discounts">Ціни та знижки</a></li>\
             <li><a id="lng__trainings" class="lng__trainings" href="#trainings">Тренінги</a></li>\
             <li>\
