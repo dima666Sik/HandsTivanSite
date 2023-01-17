@@ -159,6 +159,10 @@
         width: 60%;
         height: 300px;
     }
+
+    .rules__btns .grid__item__btn {
+        border: #050505 solid 1.5px;
+    }
 }
 
 @media (max-width: 800px) {
