@@ -25,17 +25,17 @@ You can check my work by clicking on this link: https://dima666sik.github.io/Han
 <br>☑️ Links to social networks
 
 ## Pages into site
-- Services
-  - SPA Programs
-  - Thai massage
-  - Hawaiian massage
-  - Fire massage
-  - Stone therapy
-  - Anti-cellulite massage
-  - Facial massage
-  - For two
-- Rules
-- Contacts
-- Price and Discount
-- Trainings
-- Gift certificates
+- Services ☑️ 
+  - SPA Programs ❌
+  - Thai massage ❌
+  - Hawaiian massage ❌
+  - Fire massage ❌
+  - Stone therapy ❌
+  - Anti-cellulite massage ❌
+  - Facial massage ❌
+  - For two ❌
+- Rules ☑️ 
+- Contacts ☑️ 
+- Price and Discount ❌
+- Trainings ❌
+- Gift certificates ❌
