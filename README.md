@@ -37,5 +37,5 @@ You can check my work by clicking on this link: https://dima666sik.github.io/Han
 - Rules ☑️ 
 - Contacts ☑️ 
 - Price and Discount ☑️ 
-- Trainings ❌
-- Gift certificates ❌
+- Trainings ☑️ 
+- Gift certificates ☑️ 
