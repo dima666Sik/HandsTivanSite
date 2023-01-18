@@ -31,7 +31,7 @@ You can check my work by clicking on this link: https://dima666sik.github.io/Han
   - Hawaiian massage ❌
   - Fire massage ❌
   - Stone therapy ❌
-  - Anti-cellulite massage ❌
+  - Anti-cellulite massage ☑️ 
   - Facial massage ☑️ 
   - For two ☑️ 
 - Rules ☑️ 
