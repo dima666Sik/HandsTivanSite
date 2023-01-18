@@ -19,6 +19,10 @@
     <link rel="stylesheet" href="../css/pre_footer_style.css" />
     <link rel="stylesheet" href="../css/footer_style.css" />
     <link rel="stylesheet" href="../css/fix_btn_registr.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sofia+Sans+Semi+Condensed:ital@1&display=swap" rel="stylesheet">
   </head>
   <body>
     <main>
@@ -34,9 +38,8 @@
           <div style="display: flex; justify-content: center">
             <a
               href="https://www.instagram.com/handstivan.vn.ua/"
-              class="primary__btn"
-              >Підпишись!</a
-            >
+              class="primary__btn" target="_blank"
+              >Підпишись! <i class="fa fa-instagram" aria-hidden="true"></i></a>
           </div>
         </div>
       </section>
@@ -56,21 +59,21 @@
             <p class="rules__text__sp">"Наші ручки люблять Вас!"</p>
 
             <div class="rules__btns">
-              <div class="grid__item__btn">
-                <a href="#"
-                  ><p id="lng__item__rule__btn__p1">Правила для клієнтів</p></a
-                >
-              </div>
-              <div class="grid__item__btn">
-                <a href="#"
-                  ><p id="lng__item__rule__btn__p1">Відео відгуки</p></a
-                >
-              </div>
+              <a href="#rules__for__our__clients">
+                <div class="grid__item__btn">
+                    <p id="lng__item__rule__btn__p1">Правила для клієнтів</p>
+                </div>
+              </a>
+              <a href="#video__with__comments__about__massage">
+                <div class="grid__item__btn">
+                  <p id="lng__item__rule__btn__p1">Відео відгуки</p>
+                </div>
+              </a>
             </div>
           </section>
 
-          <section class="rules__for__our__clients">
-            <h3 class="section__subtitle">Правила для наших кліентів</h3>
+          <section class="rules__for__our__clients" id="rules__for__our__clients">
+            <h3 class="section__subtitle" style="font-family: 'Roboto', Arial, sans-serif;">Правила для наших кліентів</h3>
             <p class="rules__text">
               Ми раді, що ви обрали нас!<br />
             </p>
@@ -232,7 +235,7 @@
             </p>
           </section>
 
-          <section class="video__with__cooments__about__massage">
+          <section class="video__with__cooments__about__massage" id="video__with__comments__about__massage">
             <h4 class="section__subtitle">Відео відгуки про масаж</h4>
             <div class="video__content">
               <iframe

@@ -57,7 +57,7 @@
     justify-content: space-evenly;
 }
 
-.rules__btns .grid__item__btn {
+.rules__btns a {
     margin-top: 2%;
     font-size: calc(0.1em + 1.2vw);
     text-align: center;
@@ -69,16 +69,16 @@
     cursor: pointer;
 }
 
-.rules__btns .grid__item__btn a {
+.rules__btns .grid__item__btn p {
     color: #050505;
     font-weight: bold;
 }
 
-.rules__btns .grid__item__btn:hover {
+.rules__btns a:hover {
     transition: 0.8s;
     background: #050505;
 }
 
-.rules__btns .grid__item__btn:hover a {
+.rules__btns .grid__item__btn:hover p {
     color: #F7F5EB;
 }

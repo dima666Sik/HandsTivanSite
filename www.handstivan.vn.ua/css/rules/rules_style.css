@@ -61,6 +61,7 @@
 }
 
 .section__subtitle {
+    font-family: 'Sofia Sans Semi Condensed', sans-serif;
     color: #050505;
     text-transform: uppercase;
     text-align: center;
@@ -118,7 +119,7 @@
     cursor: pointer;
 }
 
-.rules__btns .grid__item__btn a {
+.rules__btns .grid__item__btn p {
     color: #050505;
     font-weight: bold;
 }
@@ -128,7 +129,7 @@
     background: #050505;
 }
 
-.rules__btns .grid__item__btn:hover a {
+.rules__btns .grid__item__btn:hover p {
     color: #F7F5EB;
 }
 
