@@ -30,17 +30,17 @@ document.write('    <footer class="footer__section">\
         <p id="footer__company__about" class="footer__company__about"><span id="lng__f__c__a__span" class="lng__f__c__a__span">Приєднуйся!</span></p>\
         <div class="footer__icons">\
             <div class="icon">\
-              <a href="https://www.youtube.com/channel/UCITreyz6e5DBqhziC_Of07A">\
+              <a href="https://www.youtube.com/channel/UCITreyz6e5DBqhziC_Of07A" target="_blank">\
                 <img src="../img/footer/youtube.png" alt="">\
               </a>\
             </div>\
             <div class="icon">\
-              <a href="https://www.facebook.com/people/Hands-Tivan-%D0%A1%D1%85%D1%96%D0%B4%D0%BD%D1%96-%D0%BC%D0%B0%D1%81%D0%B0%D0%B6%D1%96-%D1%96-Spa-%D0%92%D1%96%D0%BD%D0%BD%D0%B8%D1%86%D1%8F/100082904226341/">\
+              <a href="https://www.facebook.com/people/Hands-Tivan-%D0%A1%D1%85%D1%96%D0%B4%D0%BD%D1%96-%D0%BC%D0%B0%D1%81%D0%B0%D0%B6%D1%96-%D1%96-Spa-%D0%92%D1%96%D0%BD%D0%BD%D0%B8%D1%86%D1%8F/100082904226341/" target="_blank">\
                 <img src="../img/footer/facebook.png" alt="">\
               </a>\
             </div>\
             <div class="icon">\
-              <a href="https://www.instagram.com/handstivan.vn.ua/">\
+              <a href="https://www.instagram.com/handstivan.vn.ua/" target="_blank">\
                 <img src="../img/footer/instagram.png" alt="">\
               </a>\
             </div>\
