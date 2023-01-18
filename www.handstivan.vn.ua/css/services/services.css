@@ -1,0 +1,84 @@
+/* Line */
+.line {
+    width: 200px;
+    border-top: 2px solid #e6c55a;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+    margin-bottom: 1%;
+}
+
+/* Line large*/
+.line__large {
+    width: 98.5%;
+    border-top: 3px solid #e6c55a;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2px;
+}
+
+.rules__text{
+    text-indent: 25px;
+    font: calc(0.1em + 1.5vw) sans-serif;
+    line-height: 1.5;
+}
+
+.rules__text__bold{
+    text-indent: 25px;
+    font: calc(0.1em + 1.5vw) sans-serif;
+    line-height: 1.5;
+    font-weight: bold;
+}
+
+.section__subtitle {
+    color: #050505;
+    text-transform: uppercase;
+    text-align: center;
+    padding-bottom: 4%;
+}
+
+.section__with__p__img img{
+    border:4px solid #E2C374;
+}
+
+.section__with__p__img{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 4%;
+    margin-bottom: 4%;
+}
+.text__p__abonoment{
+    margin-left: 4%;
+}
+/* Button */
+.rules__btns {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.rules__btns .grid__item__btn {
+    margin-top: 2%;
+    font-size: calc(0.1em + 1.2vw);
+    text-align: center;
+    text-decoration: none;
+    border: #050505 solid 3px;
+    border-radius: 5px;
+    padding: 1.5% 3%;
+    display: block;
+    cursor: pointer;
+}
+
+.rules__btns .grid__item__btn a {
+    color: #050505;
+    font-weight: bold;
+}
+
+.rules__btns .grid__item__btn:hover {
+    transition: 0.8s;
+    background: #050505;
+}
+
+.rules__btns .grid__item__btn:hover a {
+    color: #F7F5EB;
+}

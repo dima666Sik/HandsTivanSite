@@ -57,7 +57,7 @@
 .section__with__p__img{
     display: flex;
     align-items: center;
-    justify-content: space-evenly
+    justify-content: space-evenly;
 }
 .rules__subtilte img{
     width: 3.5%;
