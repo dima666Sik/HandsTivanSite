@@ -54,7 +54,7 @@
 /* Button */
 .rules__btns {
     display: flex;
-    justify-content: space-evenly;
+    margin-left: 25px;
 }
 
 .rules__btns a {
