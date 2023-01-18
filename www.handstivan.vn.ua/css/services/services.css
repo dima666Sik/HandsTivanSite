@@ -105,3 +105,99 @@
 .effects__container .effect__2{
     width: 50%;
 }
+
+.video__content {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 4%;
+}
+
+.video__youtube {
+    width: 50%;
+    height: 300px;
+}
+
+
+@media (min-width: 1950px) {
+    .video__youtube {
+        height: 500px;
+    }
+}
+
+@media (min-width: 1850px) {
+    .video__youtube {
+        height: 400px;
+    }
+}
+
+@media (max-width: 900px) {
+
+    .video__youtube {
+        width: 60%;
+        height: 300px;
+    }
+
+}
+
+@media (max-width: 800px) {
+
+    .video__youtube {
+        width: 60%;
+        height: 250px;
+    }
+}
+
+@media (max-width: 700px) {
+
+    .video__youtube {
+        width: 60%;
+        height: 250px;
+    }
+
+}
+
+@media (max-width: 600px) {
+
+    .video__youtube {
+        width: 65%;
+        height: 200px;
+    }
+}
+
+@media (max-width: 500px) {
+
+    .video__youtube {
+        width: 60%;
+        height: 180px;
+    }
+}
+
+@media (max-width: 400px) {
+
+    .video__youtube {
+        width: 60%;
+        height: 140px;
+    }
+}
+
+@media (max-width: 300px) {
+
+    .video__youtube {
+        width: 60%;
+        height: 140px;
+    }
+}
+
+@media (max-width: 250px) {
+    .video__youtube {
+        width: 60%;
+        height: 140px;
+    }
+}
+
+@media (min-width: 100px) and (max-width: 200px) {
+    .video__youtube {
+        width: 60%;
+        height: 140px;
+    }
+}
