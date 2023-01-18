@@ -26,14 +26,14 @@ You can check my work by clicking on this link: https://dima666sik.github.io/Han
 
 ## Pages into site
 - Services ☑️ 
-  - SPA Programs ❌
+  - SPA Programs ☑️ 
   - Thai massage ❌
   - Hawaiian massage ❌
   - Fire massage ❌
   - Stone therapy ❌
   - Anti-cellulite massage ❌
-  - Facial massage ❌
-  - For two ❌
+  - Facial massage ☑️ 
+  - For two ☑️ 
 - Rules ☑️ 
 - Contacts ☑️ 
 - Price and Discount ☑️ 
