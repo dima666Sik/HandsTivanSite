@@ -18,14 +18,14 @@ document.write('<header id="header" class="header">\
             <li>\
               <a id="lng__services__ul" class="lng__services__ul" href="index.html">Послуги</a>\
               <ul class="menu__under">\
-                <li><a id="lng__spa" class="lng__spa" href="#">SPA програми</a></li>\
-                <li><a id="lng__tai__massage" class="lng__tai__massage" href="#">Тайський масаж</a></li>\
-                <li><a id="lng__gav__massage" class="lng__gav__massage" href="#">Гавайський масаж</a></li>\
-                <li><a id="lng__fire__massage" class="lng__fire__massage" href="#">Вогняний масаж</a></li>\
-                <li><a id="lng__stone__massage" class="lng__stone__massage" href="#">Стоун-терапія</a></li>\
-                <li><a id="lng__anticell__massage" class="lng__anticell__massage" href="#">Антицелюлітний масаж</a></li>\
-                <li><a id="lng__face__massage"  class="lng__face__massage" href="#">Масаж обличчя</a></li>\
-                <li><a id="lng__for__two" class="lng__for__two" href="#">Для двох</a></li>\
+                <li><a id="lng__spa" class="lng__spa" href="spa.html">SPA програми</a></li>\
+                <li><a id="lng__tai__massage" class="lng__tai__massage" href="tai.html">Тайський масаж</a></li>\
+                <li><a id="lng__gav__massage" class="lng__gav__massage" href="gavai.html">Гавайський масаж</a></li>\
+                <li><a id="lng__fire__massage" class="lng__fire__massage" href="fire.html">Вогняний масаж</a></li>\
+                <li><a id="lng__stone__massage" class="lng__stone__massage" href="stone.html">Стоун-терапія</a></li>\
+                <li><a id="lng__anticell__massage" class="lng__anticell__massage" href="anticellulite.html">Антицелюлітний масаж</a></li>\
+                <li><a id="lng__face__massage"  class="lng__face__massage" href="face.html">Масаж обличчя</a></li>\
+                <li><a id="lng__for__two" class="lng__for__two" href="for_two.html">Для двох</a></li>\
               </ul>\
             </li>\
             <li><a id="lng__rules" class="lng__rules" href="rules.html">Правила</a></li>\
