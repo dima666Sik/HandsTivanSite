@@ -44,7 +44,6 @@
 .section__with__p__img{
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
     margin-top: 4%;
     margin-bottom: 4%;
 }
