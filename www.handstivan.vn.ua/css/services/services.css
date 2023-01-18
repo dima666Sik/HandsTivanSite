@@ -81,3 +81,27 @@
 .rules__btns .grid__item__btn:hover p {
     color: #F7F5EB;
 }
+
+.registration {
+    margin-top: 4%;
+    /* border: 2px solid red; */
+    text-align: center;
+}
+
+.rules__text__without__indent{
+    font: calc(0.1em + 1.5vw) sans-serif;
+    line-height: 1.5;
+}
+
+.effects__from__massage{
+    background-color: #e6c55a;
+}
+
+.effects__container{
+    display: flex;
+}
+
+.effects__container .effect__1, 
+.effects__container .effect__2{
+    width: 50%;
+}
