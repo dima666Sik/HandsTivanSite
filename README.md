@@ -27,8 +27,8 @@ You can check my work by clicking on this link: https://dima666sik.github.io/Han
 ## Pages into site
 - Services ☑️ 
   - SPA Programs ☑️ 
-  - Thai massage ❌
-  - Hawaiian massage ❌
+  - Thai massage ☑️
+  - Hawaiian massage ☑️
   - Fire massage ❌
   - Stone therapy ❌
   - Anti-cellulite massage ☑️ 
