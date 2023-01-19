@@ -30,7 +30,7 @@ You can check my work by clicking on this link: https://dima666sik.github.io/Han
   - Thai massage ☑️
   - Hawaiian massage ☑️
   - Fire massage ☑️
-  - Stone therapy ❌
+  - Stone therapy ☑️ 
   - Anti-cellulite massage ☑️ 
   - Facial massage ☑️ 
   - For two ☑️ 
