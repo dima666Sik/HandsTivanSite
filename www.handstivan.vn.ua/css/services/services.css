@@ -17,7 +17,12 @@
     margin-bottom: 2px;
 }
 
-.rules__text,
+.rules__text{
+    text-indent: 25px;
+    font: calc(0.1em + 1.5vw) sans-serif;
+    line-height: 1.5;
+    text-align: justify;
+}
 .rules__text__effects{
     text-indent: 25px;
     font: calc(0.1em + 1.5vw) sans-serif;

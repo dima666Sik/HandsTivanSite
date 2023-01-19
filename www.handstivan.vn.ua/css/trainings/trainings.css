@@ -25,6 +25,7 @@
     text-indent: 25px;
     font: calc(0.1em + 1.5vw) sans-serif;
     line-height: 1.5;
+	text-align: justify;
 }
 
 .rules__text__without__indent{
