@@ -17,7 +17,8 @@
     margin-bottom: 2px;
 }
 
-.rules__text{
+.rules__text,
+.rules__text__effects{
     text-indent: 25px;
     font: calc(0.1em + 1.5vw) sans-serif;
     line-height: 1.5;
@@ -29,7 +30,9 @@
     line-height: 1.5;
     font-weight: bold;
 }
-
+.text__p__abonoment{
+    width: 100%;
+}
 .section__subtitle {
     color: #050505;
     text-transform: uppercase;
