@@ -15,7 +15,7 @@ You can check my work by clicking on this link: https://dima666sik.github.io/Han
 
 ### Header
 ☑️ Drop-down list
-<br>☑️ Change language (Ukrainian|Russian)
+<br>❌ Change language (Ukrainian|Russian)
 
 ### Main
 ☑️ Gallary
