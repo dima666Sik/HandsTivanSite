@@ -29,7 +29,7 @@ You can check my work by clicking on this link: https://dima666sik.github.io/Han
   - SPA Programs ☑️ 
   - Thai massage ☑️
   - Hawaiian massage ☑️
-  - Fire massage ❌
+  - Fire massage ☑️
   - Stone therapy ❌
   - Anti-cellulite massage ☑️ 
   - Facial massage ☑️ 
