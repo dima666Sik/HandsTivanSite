@@ -51,12 +51,19 @@
     margin-left: 4%;
 }
 /* Button */
-.rules__btns {
+.rules__btns,
+.rules__btns__with__discount {
     display: flex;
     margin-left: 25px;
+    align-items: center;
 }
 
-.rules__btns a {
+.rules__btns__with__discount{
+    justify-content: space-between;
+}
+
+.rules__btns a,
+.rules__btns__with__discount a {
     margin-top: 2%;
     font-size: calc(0.1em + 1.2vw);
     text-align: center;
@@ -67,18 +74,44 @@
     display: block;
     cursor: pointer;
 }
+.img__with__p__to__discount{
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding: 3%;
+}
 
-.rules__btns .grid__item__btn p {
+.img__with__p__to__discount img{
+    position: absolute;
+    filter: invert(10%) sepia(0%) saturate(0%) hue-rotate(0deg) brightness(0%) contrast(50%);
+}
+
+.img__with__p__to__discount img:hover{
+    filter: invert(10%) sepia(0%) saturate(0%) hue-rotate(0deg) brightness(0%) contrast(80%);
+}
+
+.img__with__p__to__discount .text__for__discount{
+    font-family: Georgia,serif;
+    position: relative;
+    color:#e6c55a;
+    font-size: calc(0.1em + 1vw);
+    margin-left: 10%;
+}
+
+.rules__btns .grid__item__btn p ,
+.rules__btns__with__discount .grid__item__btn p{
     color: #050505;
     font-weight: bold;
 }
 
-.rules__btns a:hover {
+.rules__btns a:hover,
+.rules__btns__with__discount a:hover{
     transition: 0.8s;
     background: #050505;
 }
 
-.rules__btns .grid__item__btn:hover p {
+.rules__btns .grid__item__btn:hover p ,
+.rules__btns__with__discount .grid__item__btn:hover p{
     color: #F7F5EB;
 }
 

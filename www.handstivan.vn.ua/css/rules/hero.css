@@ -76,8 +76,6 @@
     right: 0;
     width: 10px;
     height: 10px;
-    /* border-bottom: 2px solid #21ebff;
-    border-right: 2px solid #21ebff; */
     border-bottom: 2px solid rgb(227, 148, 106);
     border-right: 2px solid rgb(227, 148, 106);
     transition: 0.5s;
