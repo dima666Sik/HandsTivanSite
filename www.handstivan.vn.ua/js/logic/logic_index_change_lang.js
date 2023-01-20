@@ -3,6 +3,7 @@ const allLang = ['ua', 'ru'];
 import { indexArr } from "../langs/index_lang.js";
 import { headerArr } from "../langs/header_lang.js";
 import { footerArr } from "../langs/footer_lang.js";
+import { rulesArr } from "../langs/rules_lang.js";
 
 select.addEventListener('change', changeURLLanguage);
 
@@ -16,7 +17,7 @@ if (res == arrNamePages[0]) {
     langArr = Object.assign({}, langArrWithHeader, footerArr);
 }
 else if (res == arrNamePages[1]) {
-    let langArrWithHeader = Object.assign({}, headerArr, indexArr);
+    let langArrWithHeader = Object.assign({}, headerArr, rulesArr);
     langArr = Object.assign({}, langArrWithHeader, footerArr);
 }
 
