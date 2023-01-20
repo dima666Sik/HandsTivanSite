@@ -23,6 +23,12 @@
     line-height: 1.5;
     text-align: justify;
 }
+.rules__text__without__indent{
+    font: calc(0.1em + 1.5vw) sans-serif;
+    line-height: 1.5;
+    text-align: justify;
+}
+
 .rules__text__effects{
     text-indent: 25px;
     font: calc(0.1em + 1.5vw) sans-serif;
@@ -30,7 +36,6 @@
 }
 
 .rules__text__bold{
-    text-indent: 25px;
     font: calc(0.1em + 1.5vw) sans-serif;
     line-height: 1.5;
     font-weight: bold;
@@ -62,7 +67,6 @@
 .rules__btns,
 .rules__btns__with__discount {
     display: flex;
-    margin-left: 25px;
     align-items: center;
 }
 
