@@ -95,6 +95,7 @@
     padding: 1.5% 3%;
     display: block;
     cursor: pointer;
+    white-space: nowrap;
 }
 
 .rules__btns .grid__item__btn a {

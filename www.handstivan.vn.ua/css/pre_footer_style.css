@@ -34,7 +34,7 @@
 
 .footer__distributed h3 {
     color: #F7F5EB;
-    font: normal calc(0.9em + 2.7vw) 'Cookie', cursive;
+    font: normal calc(0.9em + 2.7vw) sans-serif;
     margin: 0;
 }
 

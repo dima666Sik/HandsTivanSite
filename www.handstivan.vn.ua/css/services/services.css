@@ -110,6 +110,7 @@
 .rules__btns__with__discount .grid__item__btn p{
     color: #050505;
     font-weight: bold;
+    white-space: nowrap;
 }
 
 .rules__btns a:hover,
