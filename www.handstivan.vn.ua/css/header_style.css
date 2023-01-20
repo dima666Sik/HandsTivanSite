@@ -232,8 +232,8 @@ select::-ms-expand {
     /* border: 2px solid #e2e220; */
     width: 100%;
     display: flex;
-    flex-direction: column;
-    align-items: flex-end;
+    flex-direction: row;
+    align-items: center;
 
 }
 
@@ -242,7 +242,6 @@ select::-ms-expand {
     .nav {
         max-height: none;
         padding-right: 5%;
-        padding-top: 1.5%;
     }
 
     .menu li {
@@ -333,34 +332,34 @@ select::-ms-expand {
 
 @media (max-width: 900px) {
     .select {
-        width: 21%;
+        width: 35px;
     }
 
 }
 
 @media (max-width: 800px) {
     .select {
-        width: 23%;
+        width: 35px;
     }
 
 }
 
 @media (max-width: 700px) {
     .select {
-        width: 25%;
+        width: 35px;
     }
 
 }
 
 @media (max-width: 600px) {
     .select {
-        width: 34%;
+        width: 35px;
     }
 }
 
 @media (max-width: 500px) {
     .select {
-        width: 45%;
+        width: 35px;
         margin-top: 2%;
     }
 }
@@ -370,34 +369,47 @@ select::-ms-expand {
         margin-top: 3%;
     }
     .select {
-        width: 55%;
+        width: 35px;
         margin-top: 3%;
     }
 }
 
 @media (max-width: 300px) {
+    .logo__container {
+        max-width: 45%;
+    }
     .div__menu{
         margin-top: 5%;
     }
     .select {
-        width: 75%;
+        width: 40px;
         margin-top: 5%;
+        margin-left: 2%;
     }
 }
 
 @media (max-width: 250px) {
+    .logo__container {
+        max-width: 50%;
+    }
+
     .div__menu{
         margin-top: 5%;
     }
     .select {
-        width: 95%;
+        width: 45px;
         margin-top: 5%;
+        margin-left: 2%;
     }
 }
 
 @media (min-width: 100px) and (max-width: 200px) {
+    .logo__container {
+        max-width: 50%;
+    }
     .select {
-        width: 32.5%;
+        width: 100%;
         margin-top: 7%;
+        margin-left: 2%;
     }
 }
