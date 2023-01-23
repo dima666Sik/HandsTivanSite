@@ -183,7 +183,15 @@
         width: 60%;
         height: 300px;
     }
-
+    .effects__container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .effect__1,
+    .effect__2{
+        width: 100%;
+    }
 }
 
 @media (max-width: 800px) {
