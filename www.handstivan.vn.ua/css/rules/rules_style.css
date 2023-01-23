@@ -169,6 +169,23 @@
     .rules__btns .grid__item__btn {
         border: #050505 solid 1.5px;
     }
+
+    .rules__text,
+    .rules__text__sp, .rules__text__color,
+    .grid__item__btn p {
+        font-size: calc(0.1em + 2.8vw);
+    }
+    h3 {
+        font-size: calc(0.1em + 3.5vw);
+    }
+
+    h4 {
+        font-size: calc(0.1em + 3vw);
+    }
+
+    .rules__btns a{
+        padding: 8px 25px;
+    }
 }
 
 @media (max-width: 800px) {
@@ -186,6 +203,10 @@
     .video__youtube {
         width: 60%;
         height: 250px;
+    }
+
+    .rules__btns a{
+        padding: 8px 25px;
     }
 }
 
@@ -205,7 +226,9 @@
         width: 60%;
         height: 250px;
     }
-
+    .rules__btns a{
+        padding: 8px 25px;
+    }
 }
 
 @media (max-width: 600px) {
@@ -223,6 +246,9 @@
     .video__youtube {
         width: 65%;
         height: 200px;
+    }
+    .rules__btns a{
+        padding: 8px 25px;
     }
 }
 
@@ -242,6 +268,9 @@
         width: 60%;
         height: 180px;
     }
+    .rules__btns a{
+        padding: 5px 15px;
+    }
 }
 
 @media (max-width: 400px) {
@@ -259,6 +288,9 @@
     .video__youtube {
         width: 60%;
         height: 140px;
+    }
+    .rules__btns a{
+        padding: 5px 15px;
     }
 }
 
@@ -278,6 +310,9 @@
         width: 60%;
         height: 140px;
     }
+    .rules__btns a{
+        padding: 5px 15px;
+    }
 }
 
 @media (max-width: 250px) {
@@ -296,6 +331,9 @@
         width: 60%;
         height: 140px;
     }
+    .rules__btns a{
+        padding: 4px 8px;
+    }
 }
 
 @media (min-width: 100px) and (max-width: 200px) {
@@ -313,5 +351,9 @@
     .video__youtube {
         width: 60%;
         height: 140px;
+    }
+
+    .rules__btns a{
+        padding: 4px 8px;
     }
 }

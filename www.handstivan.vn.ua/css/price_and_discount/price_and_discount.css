@@ -98,16 +98,94 @@
     white-space: nowrap;
 }
 
-.rules__btns .grid__item__btn a {
+.rules__btns a {
     color: #050505;
     font-weight: bold;
 }
 
-.rules__btns .grid__item__btn:hover {
+.rules__btns a .grid__item__btn:hover {
     transition: 0.8s;
     background: #050505;
 }
 
-.rules__btns .grid__item__btn:hover a {
+.rules__btns a .grid__item__btn:hover p{
     color: #F7F5EB;
+}
+
+
+@media (max-width: 900px) {
+    .rules__btns .grid__item__btn {
+        border: #050505 solid 1.5px;
+    }
+
+    .rules__text,
+    .rules__text__sp, .rules__text__color,
+    .rules__text__bold,
+    .grid__item__btn p {
+        font-size: calc(0.1em + 2.8vw);
+    }
+    h3 {
+        font-size: calc(0.1em + 3.5vw);
+    }
+
+    h4 {
+        font-size: calc(0.1em + 3vw);
+    }
+
+    .rules__btns a{
+        padding: 8px 25px;
+    }
+
+    .text__p__abonoment{
+        margin-left: 4%;
+    }
+}
+
+@media (max-width: 800px) {
+
+    .rules__btns a{
+        padding: 8px 25px;
+    }
+}
+
+@media (max-width: 700px) {
+    .rules__btns a{
+        padding: 8px 25px;
+    }
+}
+
+@media (max-width: 600px) {
+    .rules__btns a{
+        padding: 8px 25px;
+    }
+}
+
+@media (max-width: 500px) {
+    .rules__btns a{
+        padding: 5px 15px;
+    }
+}
+
+@media (max-width: 400px) {
+    .rules__btns a{
+        padding: 5px 15px;
+    }
+}
+
+@media (max-width: 300px) {
+    .rules__btns a{
+        padding: 5px 15px;
+    }
+}
+
+@media (max-width: 250px) {
+    .rules__btns a{
+        padding: 4px 8px;
+    }
+}
+
+@media (min-width: 100px) and (max-width: 200px) {
+    .rules__btns a{
+        padding: 4px 8px;
+    }
 }

@@ -92,4 +92,18 @@
 	.grid__item{
 		width: 80%;
 	}
+
+	h3 {
+        font-size: calc(0.1em + 3.5vw);
+    }
+
+    h4 {
+        font-size: calc(0.1em + 3vw);
+    }
+
+	.rules__text,
+    .rules__text__bold,
+	.rules__text__without__indent {
+        font-size: calc(0.1em + 2.8vw);
+    }
 }

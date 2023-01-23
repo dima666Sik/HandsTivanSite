@@ -260,6 +260,7 @@
 
     .rules__btns a, .rules__btns__with__discount a {
         padding: 8px 25px;
+        border: #050505 solid 1.5px;
     }
 }
 
