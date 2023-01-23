@@ -284,6 +284,10 @@ select::-ms-expand {
         overflow-y: scroll;
         font-size: calc(4em + 10vw);
     }
+
+    .menu__container{
+        margin-right: 5%;
+    }
     
 }
 
