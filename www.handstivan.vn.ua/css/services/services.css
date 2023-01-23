@@ -200,8 +200,8 @@
         align-items: center;
     }
 
-    .effect__1,
-    .effect__2 {
+    .effects__container .effect__1,
+    .effects__container .effect__2 {
         width: 100%;
     }
 
