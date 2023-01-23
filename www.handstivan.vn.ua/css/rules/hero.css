@@ -10,6 +10,7 @@
 
 .hero img{
     display: block;
+    width: 100%;
 }
 
 .hero__text, .content-add{
@@ -87,4 +88,19 @@
 }
 #add{
     position: relative;
+}
+
+@media (max-width: 900px) {
+    .hero {
+        overflow: hidden;
+    }
+
+    .hero img {
+        width: max-content;
+        height: 500px;
+    }
+
+    .primary__btn {
+        font-size: calc(0.1em + 2.8vw);
+    }
 }

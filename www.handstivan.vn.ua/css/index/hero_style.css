@@ -1,37 +1,36 @@
 /* Hero */
-.hero__text{
+.hero__text {
     color: #F7F5EB;
     text-align: center;
     padding-top: 7%;
     padding-bottom: 4%;
 }
 
-.hero__text h2{
+.hero__text h2 {
     text-transform: uppercase;
     padding-bottom: 1.5%;
-    color:#e6c55a;
+    color: #e6c55a;
     letter-spacing: 5px;
 }
 
-#lng__hero__inner__p1{
+#lng__hero__inner__p1 {
     padding-bottom: 10%;
     text-transform: uppercase;
     font-weight: bold;
 }
 
-.hero__inner{
+.hero__inner {
     font-size: calc(0.1em + 1.4vw);
     letter-spacing: 2px;
 }
 
-@media (max-width: 900px){
-	
-    .hero__text h2{
+@media (max-width: 900px) {
+
+    .hero__text h2 {
         font-size: calc(0.1em + 8vw);
     }
 
-    .hero__inner{
+    .hero__inner {
         font-size: calc(0.1em + 3.5vw);
     }
 }
-
