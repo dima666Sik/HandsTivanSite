@@ -218,11 +218,11 @@
     }
 
     .rules__btns {
-        justify-content: center;
+        justify-content: left;
     }
 
     .rules__btns__with__discount {
-        justify-content: space-around;
+        justify-content: space-between;
     }
 
     .img__with__p__to__discount {
@@ -231,6 +231,7 @@
 
     .text__p__abonoment {
         margin-top: 4%;
+        margin-right: 4%;
     }
 
     .img__with__p__to__discount .text__for__discount,
@@ -242,7 +243,7 @@
 
     .rules__text__bold,
     .rules__text__without__indent {
-        text-align: center;
+        text-align: left;
         font-size: calc(0.1em + 2.8vw);
     }
 
