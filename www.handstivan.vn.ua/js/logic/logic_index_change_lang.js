@@ -11,6 +11,7 @@ let arrNamePages = ["index", "rules", "contacts", "price_and_discounts", "traini
     "spa", "tai", "gavai", "fire", "stone", "anticellulite", "face", "for_two"];
 let langArr = {};
 let res = selectCurrentNamePage(select.baseURI);
+let lang;
 
 if (res == arrNamePages[0]) {
     let langArrWithHeader = Object.assign({}, headerArr, indexArr);
@@ -23,7 +24,7 @@ else if (res == arrNamePages[1]) {
 
 // retract to url with point lang
 function changeURLLanguage() {
-    let lang = select.value;
+    lang = select.value;
     localStorage.setItem("mySelectedValue", lang);
     location.reload();
 }
@@ -33,6 +34,7 @@ function changeLanguage() {
 
     if (!slct_item) {
         select.value = allLang[0];
+        lang = select.value;
         localStorage.setItem("mySelectedValue", lang);
         location.reload();
     }
