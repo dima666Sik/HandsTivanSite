@@ -182,10 +182,11 @@ select {
 .select {
     position: relative;
     display: block;
-    height: 20px;
+    height: 25px;
     line-height: 1.5;
     background: #ddd;
     overflow: hidden;
+    padding: 0 0.2em;
 }
 
 select {
@@ -206,7 +207,7 @@ select::-ms-expand {
     top: 0px;
     right: 0;
     bottom: 0;
-    padding: 0 0.2em;
+    padding: 0 0.5em;
     background: #fff;
     pointer-events: none;
 }
@@ -276,6 +277,24 @@ select::-ms-expand {
 }
 
 @media (max-width: 900px) {
+    .select {
+        position: relative;
+        display: block;
+        height: 20px;
+        line-height: 1.5;
+        background: #ddd;
+        overflow: hidden;
+    }
+    .select::after {
+        content: '\25BC';
+        position: absolute;
+        top: 0px;
+        right: 0;
+        bottom: 0;
+        padding: 0 0.2em;
+        background: #fff;
+        pointer-events: none;
+    }
     .logo__container {
         max-width: 20%;
     }
