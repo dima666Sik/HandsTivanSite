@@ -141,6 +141,15 @@
     .text__p__abonoment{
         margin-left: 4%;
     }
+    .section__with__p__img{
+        display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    }
+    .section__with__p__img img{
+        width: 70%;
+    }
 }
 
 @media (max-width: 800px) {
