@@ -107,10 +107,10 @@ ul {
 .hamb__line {
     background: #F7F5EB;
     display: block;
-    height: 2px;
+    height: 3px;
     position: relative;
     width: 24px;
-
+    border-radius: 10px;
 }
 
 /* Style span tag */
@@ -119,18 +119,19 @@ ul {
     background: #F7F5EB;
     content: '';
     display: block;
-    height: 100%;
+    height: 110%;
     position: absolute;
     transition: all .2s ease-out;
     width: 100%;
+    border-radius: 10px;
 }
 
 .hamb__line::before {
-    top: 5px;
+    top: 7px;
 }
 
 .hamb__line::after {
-    top: -5px;
+    top: -7px;
 }
 
 .side__menu {
