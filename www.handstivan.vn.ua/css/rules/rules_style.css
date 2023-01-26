@@ -89,7 +89,7 @@
     padding-bottom: 4%;
 }
 .about__us img {
-    width: 4%;
+    width: 7%;
     filter: invert(60%) sepia(20%) saturate(2999%) hue-rotate(10deg) brightness(95%) contrast(55%);
 }
 
