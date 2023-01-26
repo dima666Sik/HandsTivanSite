@@ -21,4 +21,10 @@
 	.copyright__text .p__inner {
 		font-size: calc(0.2em + 2.5vw);
 	}
+	
+	.controle__margin .footer__center{
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+	}
 }
