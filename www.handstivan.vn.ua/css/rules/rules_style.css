@@ -162,8 +162,8 @@
     }
 
     .video__youtube {
-        width: 60%;
-        height: 300px;
+        width: 100%;
+        height: 380px;
     }
 
     .rules__btns .grid__item__btn {
@@ -171,16 +171,19 @@
     }
 
     .rules__text,
-    .rules__text__sp, .rules__text__color,
+    .rules__text__sp, .rules__text__color{
+        font-size: calc(0.1em + 5vw);
+    }
+
     .grid__item__btn p {
-        font-size: calc(0.1em + 2.8vw);
+        font-size: calc(0.1em + 3vw);
     }
     h3 {
-        font-size: calc(0.1em + 3.5vw);
+        font-size: calc(0.1em + 7vw);
     }
 
     h4 {
-        font-size: calc(0.1em + 3vw);
+        font-size: calc(0.1em + 6vw);
     }
 
     .rules__btns a{
@@ -201,8 +204,8 @@
     }
 
     .video__youtube {
-        width: 60%;
-        height: 250px;
+        width: 100%;
+        height: 340px;
     }
 
     .rules__btns a{
@@ -223,8 +226,8 @@
     }
 
     .video__youtube {
-        width: 60%;
-        height: 250px;
+        width: 100%;
+        height: 320px;
     }
     .rules__btns a{
         padding: 8px 25px;
@@ -244,8 +247,8 @@
     }
 
     .video__youtube {
-        width: 65%;
-        height: 200px;
+        width: 100%;
+        height: 300px;
     }
     .rules__btns a{
         padding: 8px 25px;
@@ -265,8 +268,8 @@
     }
 
     .video__youtube {
-        width: 60%;
-        height: 180px;
+        width: 100%;
+        height: 280px;
     }
     .rules__btns a{
         padding: 5px 15px;
@@ -286,8 +289,8 @@
     }
 
     .video__youtube {
-        width: 60%;
-        height: 140px;
+        width: 100%;
+        height: 270px;
     }
     .rules__btns a{
         padding: 5px 15px;
@@ -307,8 +310,8 @@
     }
 
     .video__youtube {
-        width: 60%;
-        height: 140px;
+        width: 100%;
+        height: 250px;
     }
     .rules__btns a{
         padding: 5px 15px;
@@ -328,8 +331,8 @@
     }
 
     .video__youtube {
-        width: 60%;
-        height: 140px;
+        width: 100%;
+        height: 230px;
     }
     .rules__btns a{
         padding: 4px 8px;
@@ -349,8 +352,8 @@
     }
 
     .video__youtube {
-        width: 60%;
-        height: 140px;
+        width: 100%;
+        height: 220px;
     }
 
     .rules__btns a{

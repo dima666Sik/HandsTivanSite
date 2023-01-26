@@ -62,17 +62,33 @@
 
 @media (max-width: 900px){
 
+    .var__cert__img__and__p{
+        
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    }
+
+    .var__cert__img__and__p img{
+        width: 70%;
+    }
+
+    .text__var__cert{
+        width: 100%;
+    }
+    
 	h3 {
-        font-size: calc(0.1em + 3.5vw);
+        font-size: calc(0.1em + 7vw);
     }
 
     h4 {
-        font-size: calc(0.1em + 3vw);
+        font-size: calc(0.1em + 6vw);
     }
 
 	.rules__text,
     .rules__text__bold,
     .var__cert__p {
-        font-size: calc(0.1em + 2.8vw);
+        font-size: calc(0.1em + 5vw);
     }
 }

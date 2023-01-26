@@ -170,6 +170,34 @@
     .footer__distributed .footer__center div {
         justify-content: center;
     }
+
+    .footer__distributed {
+        font-size: calc(0.2em + 5vw);
+    }
+
+    .footer__distributed .footer__company__about {
+        font-size: calc(0.2em + 5vw);
+    }
+
+    .footer__distributed .footer__company__about span {
+        padding-bottom: 10%;
+    }
+
+    .footer__distributed .footer__center p span {
+        font-size: calc(0.2em + 5vw);
+    }
+
+    .footer__distributed .footer__center p span {
+        font-size: calc(0.2em + 5vw);
+    }
+    .footer__distributed .footer__center p,
+    .footer__distributed .footer__center p a 
+    {
+        font-size: calc(0.2em + 5vw);
+    }
+    .footer__distributed h3 {
+        font-size: calc(0.1em + 8vw);
+    }
 }
 
 @media (max-width: 800px) {
@@ -189,11 +217,11 @@
     }
 
     .footer__distributed {
-        font-size: calc(0.2em + 3vw);
+        font-size: calc(0.2em + 5vw);
     }
 
     .footer__distributed .footer__company__about {
-        font-size: calc(0.2em + 3vw);
+        font-size: calc(0.2em + 5vw);
     }
 
     .footer__distributed .footer__company__about span {
@@ -201,19 +229,19 @@
     }
 
     .footer__distributed .footer__center p span {
-        font-size: calc(0.2em + 3vw);
+        font-size: calc(0.2em + 5vw);
     }
 
     .footer__distributed .footer__center p span {
-        font-size: calc(0.2em + 3vw);
+        font-size: calc(0.2em + 5vw);
     }
     .footer__distributed .footer__center p,
     .footer__distributed .footer__center p a 
     {
-        font-size: calc(0.2em + 3vw);
+        font-size: calc(0.2em + 5vw);
     }
     .footer__distributed h3 {
-        font-size: calc(0.1em + 7vw);
+        font-size: calc(0.1em + 8vw);
     }
 }
 
@@ -234,11 +262,11 @@
     }
 
     .footer__distributed {
-        font-size: calc(0.2em + 3vw);
+        font-size: calc(0.2em + 4vw);
     }
 
     .footer__distributed .footer__company__about {
-        font-size: calc(0.2em + 3vw);
+        font-size: calc(0.2em + 4vw);
     }
 
     .footer__distributed .footer__company__about span {
@@ -246,17 +274,17 @@
     }
 
     .footer__distributed .footer__center p span {
-        font-size: calc(0.2em + 3vw);
+        font-size: calc(0.2em + 4vw);
     }
 
     .footer__distributed .footer__center p,
     .footer__distributed .footer__center p a 
     {
-        font-size: calc(0.2em + 3vw);
+        font-size: calc(0.2em + 4vw);
     }
 
     .footer__distributed h3 {
-        font-size: calc(0.1em + 7vw);
+        font-size: calc(0.1em + 8vw);
     }
 }
 
@@ -277,11 +305,11 @@
     }
 
     .footer__distributed {
-        font-size: calc(0.2em + 3vw);
+        font-size: calc(0.2em + 4vw);
     }
 
     .footer__distributed .footer__company__about {
-        font-size: calc(0.2em + 3vw);
+        font-size: calc(0.2em + 4vw);
     }
 
     .footer__distributed .footer__company__about span {
@@ -289,17 +317,17 @@
     }
 
     .footer__distributed .footer__center p span {
-        font-size: calc(0.2em + 3vw);
+        font-size: calc(0.2em + 4vw);
     }
 
     .footer__distributed .footer__center p,
     .footer__distributed .footer__center p a 
     {
-        font-size: calc(0.2em + 3vw);
+        font-size: calc(0.2em + 4vw);
     }
 
     .footer__distributed h3 {
-        font-size: calc(0.1em + 7vw);
+        font-size: calc(0.1em + 8vw);
     }
 }
 
@@ -320,11 +348,11 @@
     }
 
     .footer__distributed {
-        font-size: calc(0.2em + 3vw);
+        font-size: calc(0.2em + 4vw);
     }
 
     .footer__distributed .footer__company__about {
-        font-size: calc(0.2em + 3vw);
+        font-size: calc(0.2em + 4vw);
     }
 
     .footer__distributed .footer__company__about span {
@@ -332,17 +360,17 @@
     }
 
     .footer__distributed .footer__center p span {
-        font-size: calc(0.2em + 3vw);
+        font-size: calc(0.2em + 4vw);
     }
 
     .footer__distributed .footer__center p,
     .footer__distributed .footer__center p a 
     {
-        font-size: calc(0.2em + 3vw);
+        font-size: calc(0.2em + 4vw);
     }
 
     .footer__distributed h3 {
-        font-size: calc(0.1em + 7vw);
+        font-size: calc(0.1em + 8vw);
     }
 }
 
@@ -363,11 +391,11 @@
     }
 
     .footer__distributed {
-        font-size: calc(0.2em + 3vw);
+        font-size: calc(0.2em + 4vw);
     }
 
     .footer__distributed .footer__company__about {
-        font-size: calc(0.2em + 3vw);
+        font-size: calc(0.2em + 4vw);
     }
 
     .footer__distributed .footer__company__about span {
@@ -375,17 +403,17 @@
     }
 
     .footer__distributed .footer__center p span {
-        font-size: calc(0.2em + 3vw);
+        font-size: calc(0.2em + 4vw);
     }
 
     .footer__distributed .footer__center p,
     .footer__distributed .footer__center p a 
     {
-        font-size: calc(0.2em + 3vw);
+        font-size: calc(0.2em + 4vw);
     }
 
     .footer__distributed h3 {
-        font-size: calc(0.1em + 7vw);
+        font-size: calc(0.1em + 8vw);
     }
 }
 

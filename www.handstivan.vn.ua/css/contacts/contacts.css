@@ -136,14 +136,14 @@
         margin-left: 0%;
     }
     h3 {
-        font-size: calc(0.1em + 3.5vw);
+        font-size: calc(0.1em + 7vw);
     }
 
     h4 {
-        font-size: calc(0.1em + 3vw);
+        font-size: calc(0.1em + 6vw);
     }
     .text__to__map__p{
-        font-size: calc(0.1em + 2.8vw);
+        font-size: calc(0.1em + 5vw);
     }
 }
 

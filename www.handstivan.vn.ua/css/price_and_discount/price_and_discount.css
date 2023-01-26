@@ -120,16 +120,18 @@
 
     .rules__text,
     .rules__text__sp, .rules__text__color,
-    .rules__text__bold,
+    .rules__text__bold{
+        font-size: calc(0.1em + 5vw);
+    }
     .grid__item__btn p {
-        font-size: calc(0.1em + 2.8vw);
+        font-size: calc(0.1em + 3vw);
     }
     h3 {
-        font-size: calc(0.1em + 3.5vw);
+        font-size: calc(0.1em + 7vw);
     }
 
     h4 {
-        font-size: calc(0.1em + 3vw);
+        font-size: calc(0.1em + 6vw);
     }
 
     .rules__btns a{

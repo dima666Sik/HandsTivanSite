@@ -238,25 +238,25 @@
     .rules__btns__with__discount a,
     .rules__btns a,
     .rules__text__effects {
-        font-size: calc(0.1em + 2.8vw);
+        font-size: calc(0.1em + 5vw);
     }
 
     .rules__text__bold,
     .rules__text__without__indent {
         text-align: left;
-        font-size: calc(0.1em + 2.8vw);
+        font-size: calc(0.1em + 5vw);
     }
 
     .rules__text {
-        font-size: calc(0.1em + 2.8vw);
+        font-size: calc(0.1em + 5vw);
     }
 
     h3 {
-        font-size: calc(0.1em + 3.5vw);
+        font-size: calc(0.1em + 7vw);
     }
 
     h4 {
-        font-size: calc(0.1em + 3vw);
+        font-size: calc(0.1em + 6vw);
     }
 
     .rules__btns a, .rules__btns__with__discount a {

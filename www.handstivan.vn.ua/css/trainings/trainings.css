@@ -90,20 +90,20 @@
 	}
 
 	.grid__item{
-		width: 80%;
+		width: 100%;
 	}
 
 	h3 {
-        font-size: calc(0.1em + 3.5vw);
+        font-size: calc(0.1em + 7vw);
     }
 
     h4 {
-        font-size: calc(0.1em + 3vw);
+        font-size: calc(0.1em + 6vw);
     }
 
 	.rules__text,
     .rules__text__bold,
 	.rules__text__without__indent {
-        font-size: calc(0.1em + 2.8vw);
+        font-size: calc(0.1em + 5vw);
     }
 }
