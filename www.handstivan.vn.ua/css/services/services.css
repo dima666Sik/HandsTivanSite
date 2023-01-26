@@ -190,8 +190,8 @@
 @media (max-width: 900px) {
 
     .video__youtube {
-        width: 60%;
-        height: 300px;
+        width: 100%;
+        height: 520px;
     }
 
     .effects__container {
@@ -268,8 +268,8 @@
 @media (max-width: 800px) {
 
     .video__youtube {
-        width: 60%;
-        height: 250px;
+        width: 100%;
+        height: 420px;
     }
     .rules__btns a, .rules__btns__with__discount a {
         padding: 8px 25px;
@@ -279,8 +279,8 @@
 @media (max-width: 700px) {
 
     .video__youtube {
-        width: 60%;
-        height: 250px;
+        width: 100%;
+        height: 340px;
     }
     .rules__btns a, .rules__btns__with__discount a {
         padding: 8px 25px;
@@ -290,8 +290,8 @@
 @media (max-width: 600px) {
 
     .video__youtube {
-        width: 65%;
-        height: 200px;
+        width: 100%;
+        height: 320px;
     }
     .rules__btns a, .rules__btns__with__discount a {
         padding: 8px 25px;
@@ -301,8 +301,8 @@
 @media (max-width: 500px) {
 
     .video__youtube {
-        width: 60%;
-        height: 180px;
+        width: 100%;
+        height: 300px;
     }
     .rules__btns a, .rules__btns__with__discount a {
         padding: 5px 15px;
@@ -312,8 +312,8 @@
 @media (max-width: 400px) {
 
     .video__youtube {
-        width: 60%;
-        height: 140px;
+        width: 100%;
+        height: 220px;
     }
     .rules__btns a, .rules__btns__with__discount a {
         padding: 5px 15px;
@@ -323,7 +323,7 @@
 @media (max-width: 300px) {
 
     .video__youtube {
-        width: 60%;
+        width: 100%;
         height: 140px;
     }
     .rules__btns a, .rules__btns__with__discount a {
@@ -333,7 +333,7 @@
 
 @media (max-width: 250px) {
     .video__youtube {
-        width: 60%;
+        width: 100%;
         height: 140px;
     }
     .rules__btns a, .rules__btns__with__discount a {
@@ -343,7 +343,7 @@
 
 @media (min-width: 100px) and (max-width: 200px) {
     .video__youtube {
-        width: 60%;
+        width: 100%;
         height: 140px;
     }
     .rules__btns a, .rules__btns__with__discount a {
