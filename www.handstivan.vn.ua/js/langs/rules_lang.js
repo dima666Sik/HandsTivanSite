@@ -4,8 +4,8 @@ export const rulesArr ={
         "ru": "Правила"
     },
     "title__btn": {
-        "ua": "Підпишись!",
-        "ru": "Подпишись!"
+        "ua": `Підпишись!<i class="fa fa-instagram" aria-hidden="true"></i>`,
+        "ru": `Подпишись!<i class="fa fa-instagram" aria-hidden="true"></i>`
     },
 
     "about__p":{

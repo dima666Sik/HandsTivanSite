@@ -42,6 +42,10 @@
     -webkit-box-reflect: below 1px linear-gradient(transparent, #0003);
 }
 
+.primary__btn .fa-instagram{
+    margin-left: 5px;
+}
+
 .primary__btn:hover {
     /* background:#21ebff; */
     background-image: linear-gradient(rgb(227, 148, 106) 60%, rgb(240, 126, 64) 100%, rgb(225, 101, 33) 40%);

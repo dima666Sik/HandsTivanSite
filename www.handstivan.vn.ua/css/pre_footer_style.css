@@ -74,9 +74,9 @@
     filter: invert(60%) sepia(20%) saturate(2999%) hue-rotate(10deg) brightness(95%) contrast(55%);
 }
 
-.fa-instagram,
-.fa-youtube-play,
-.fa-facebook
+.icon .fa-instagram,
+.icon .fa-youtube-play,
+.icon .fa-facebook
 {
     padding: 5px;
     color: #fefefe;
