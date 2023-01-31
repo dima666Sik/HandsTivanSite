@@ -61,7 +61,7 @@
     width: 35%;
 }
 
-.footer__distributed .footer__center img {
+.footer__distributed .footer__center img{
     /* background-color: rgba(20, 20, 20, 0.838); */
     color: #F7F5EB;
     font-size: 25px;
@@ -72,6 +72,14 @@
     margin: 10px 15px;
     vertical-align: middle;
     filter: invert(60%) sepia(20%) saturate(2999%) hue-rotate(10deg) brightness(95%) contrast(55%);
+}
+
+.fa-instagram,
+.fa-youtube-play,
+.fa-facebook
+{
+    padding: 5px;
+    color: #fefefe;
 }
 
 .footer__distributed .footer__center p {
@@ -136,8 +144,10 @@
     background-color: #e6c55add;
 }
 
-.footer__distributed .footer__icons .icon img:hover {
-    filter: none;
+.footer__distributed .footer__icons .icon .fa-instagram:hover,
+.footer__distributed .footer__icons .icon .fa-youtube-play:hover,
+.footer__distributed .footer__icons .icon .fa-facebook:hover {
+    color: #000;
     transition: 0.8s;
 }
 
