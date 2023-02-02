@@ -1,5 +1,4 @@
-
-.main{
+.main {
     position: relative;
 }
 
@@ -8,13 +7,14 @@
     z-index: 0;
 }
 
-.hero img{
+.hero img {
     display: block;
     width: 100%;
-    visibility: hidden;
+    visibility:hidden;
 }
 
-.hero__text, .content-add{
+.hero__text,
+.content-add {
     position: absolute;
     color: #F7F5EB;
     text-align: center;
@@ -25,7 +25,7 @@
     z-index: 1;
 }
 
-.pre__intro{
+.pre__intro {
     text-align: center;
 }
 
