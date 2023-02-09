@@ -1,0 +1,77 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', Arial, sans-serif;
+    background: url("../img/index/background.png") no-repeat center fixed;
+    background-size: cover;
+}
+
+h1 {
+    font-size: calc(0.1em + 8vw);
+}
+
+h2 {
+    font-size: calc(0.1em + 3.5vw);
+}
+
+h3 {
+    font-size: calc(0.1em + 2.5vw);
+}
+
+h4 {
+    font-size: calc(0.1em + 1.8vw);
+}
+
+h5 {
+    font-size: calc(0.1em + 0.5vw);
+}
+
+/* scroll edit */
+::-webkit-scrollbar {
+    width: 5px;
+    /* ширина нового скроллбара */
+}
+
+::-webkit-scrollbar-track {
+    background: rgb(82, 59, 28);
+    /* цвет фона у дорожки */
+}
+
+::-webkit-scrollbar-thumb {
+    border: 3px solid rgb(50, 38, 27);
+    /* толщина, стиль и цвет рамки */
+}
+
+.container__gallery {
+	background-color: #F7F5EB;
+	padding: 2.5% 5%;
+}
+
+/* Hero */
+.style__header__to__else__page{
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+}
+
+.container {
+    max-width: 80%;
+    padding: 0 10px;
+    margin: 0 auto;
+    /* border: 2px solid red; */
+}
+
+@media (max-width: 900px){
+
+    .container {
+        max-width: 100%;
+        padding: 0px;
+        margin: 0 auto;
+    }
+    
+}

@@ -1,0 +1,362 @@
+
+.about__us {
+    /* border: 2px solid red; */
+    text-align: center;
+}
+
+.rules__for__our__clients {
+    /* border: 2px solid red; */
+    padding-bottom: 4%;
+}
+
+.record {
+    /* border: 2px solid red; */
+    padding-bottom: 4%;
+}
+
+.choise__master {
+    /* border: 2px solid red; */
+    padding-bottom: 4%;
+}
+
+.deposit {
+    /* border: 2px solid red; */
+    padding-bottom: 4%;
+}
+
+.time {
+    /* border: 2px solid red; */
+    padding-bottom: 4%;
+}
+
+.late {
+    /* border: 2px solid red; */
+    padding-bottom: 4%;
+}
+
+.cancel__or__transfer {
+    /* border: 2px solid red; */
+    padding-bottom: 4%;
+}
+
+.rules__for__gift__certificates {
+    /* border: 2px solid red; */
+    padding-bottom: 4%;
+}
+
+.video__with__cooments__about__massage {
+    /* border: 2px solid red; */
+    padding-bottom: 4%;
+}
+
+.rules__for__abonents{
+    /* border: 2px solid red; */
+    padding-bottom: 4%;
+}
+
+.video__content {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 4%;
+}
+
+.section__subtitle {
+    color: #050505;
+    text-transform: uppercase;
+    text-align: center;
+    padding-bottom: 4%;
+}
+
+.video__youtube {
+    width: 33.3%;
+    height: 300px;
+}
+
+.section__subtitle__special {
+    color: #050505;
+    text-transform: uppercase;
+    text-align: center;
+    margin-left: 1.5%;
+}
+
+.rules__subtilte {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 4%;
+}
+.about__us{
+    padding-bottom: 4%;
+}
+.about__us img {
+    width: 7%;
+    filter: invert(60%) sepia(20%) saturate(2999%) hue-rotate(10deg) brightness(95%) contrast(55%);
+}
+
+.rules__text, .rules__text__sp , .rules__text__color{
+    text-indent: 25px;
+    font: calc(0.1em + 1.5vw) sans-serif;
+}
+.rules__text, .rules__text__color{
+    line-height: 1.5;
+    text-align: justify;
+}
+.rules__text__color{
+    color:#696969;
+}
+/* Button */
+.rules__btns {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.rules__btns .grid__item__btn {
+    margin-top: 2%;
+    font-size: calc(0.1em + 1.2vw);
+    text-align: center;
+    text-decoration: none;
+    border: #050505 solid 3px;
+    border-radius: 5px;
+    padding: 10px 30px;
+    display: block;
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+.rules__btns .grid__item__btn p {
+    color: #050505;
+    font-weight: bold;
+}
+
+.rules__btns .grid__item__btn:hover {
+    transition: 0.8s;
+    background: #050505;
+}
+
+.rules__btns .grid__item__btn:hover p {
+    color: #F7F5EB;
+}
+
+@media (min-width: 1950px) {
+    .video__youtube {
+        height: 500px;
+    }
+}
+
+@media (min-width: 1850px) {
+    .video__youtube {
+        height: 400px;
+    }
+}
+
+@media (max-width: 900px) {
+    .video__content {
+        display: flex;
+        padding-bottom: 4%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #video__youtube__1 {
+        padding-bottom: 4%;
+    }
+
+    .video__youtube {
+        width: 100%;
+        height: 380px;
+    }
+
+    .rules__btns .grid__item__btn {
+        border: #050505 solid 1.5px;
+    }
+
+    .rules__text,
+    .rules__text__sp, .rules__text__color{
+        font-size: calc(0.1em + 5vw);
+    }
+
+    .grid__item__btn p {
+        font-size: calc(0.1em + 3vw);
+    }
+    h3 {
+        font-size: calc(0.1em + 7vw);
+    }
+
+    h4 {
+        font-size: calc(0.1em + 6vw);
+    }
+
+    .rules__btns a{
+        padding: 8px 25px;
+    }
+}
+
+@media (max-width: 800px) {
+    .video__content {
+        display: flex;
+        padding-bottom: 4%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #video__youtube__1 {
+        padding-bottom: 4%;
+    }
+
+    .video__youtube {
+        width: 100%;
+        height: 340px;
+    }
+
+    .rules__btns a{
+        padding: 8px 25px;
+    }
+}
+
+@media (max-width: 700px) {
+    .video__content {
+        display: flex;
+        padding-bottom: 4%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #video__youtube__1 {
+        padding-bottom: 4%;
+    }
+
+    .video__youtube {
+        width: 100%;
+        height: 320px;
+    }
+    .rules__btns a{
+        padding: 8px 25px;
+    }
+}
+
+@media (max-width: 600px) {
+    .video__content {
+        display: flex;
+        padding-bottom: 4%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #video__youtube__1 {
+        padding-bottom: 4%;
+    }
+
+    .video__youtube {
+        width: 100%;
+        height: 300px;
+    }
+    .rules__btns a{
+        padding: 8px 25px;
+    }
+}
+
+@media (max-width: 500px) {
+    .video__content {
+        display: flex;
+        padding-bottom: 4%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #video__youtube__1 {
+        padding-bottom: 4%;
+    }
+
+    .video__youtube {
+        width: 100%;
+        height: 280px;
+    }
+    .rules__btns a{
+        padding: 5px 15px;
+    }
+}
+
+@media (max-width: 400px) {
+    .video__content {
+        display: flex;
+        padding-bottom: 4%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #video__youtube__1 {
+        padding-bottom: 4%;
+    }
+
+    .video__youtube {
+        width: 100%;
+        height: 270px;
+    }
+    .rules__btns a{
+        padding: 5px 15px;
+    }
+}
+
+@media (max-width: 300px) {
+    .video__content {
+        display: flex;
+        padding-bottom: 4%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #video__youtube__1 {
+        padding-bottom: 4%;
+    }
+
+    .video__youtube {
+        width: 100%;
+        height: 250px;
+    }
+    .rules__btns a{
+        padding: 5px 15px;
+    }
+}
+
+@media (max-width: 250px) {
+    .video__content {
+        display: flex;
+        padding-bottom: 4%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #video__youtube__1 {
+        padding-bottom: 4%;
+    }
+
+    .video__youtube {
+        width: 100%;
+        height: 230px;
+    }
+    .rules__btns a{
+        padding: 4px 8px;
+    }
+}
+
+@media (min-width: 100px) and (max-width: 200px) {
+    .video__content {
+        display: flex;
+        padding-bottom: 4%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #video__youtube__1 {
+        padding-bottom: 4%;
+    }
+
+    .video__youtube {
+        width: 100%;
+        height: 220px;
+    }
+
+    .rules__btns a{
+        padding: 4px 8px;
+    }
+}
