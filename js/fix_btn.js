@@ -1,3 +1,3 @@
 document.write(
-	'<a class="fixedbut" href="https://dikidi.app/#widget=80597">⋞ЗАПИС⋟</a>'
+	'<a class="fixedbut" href="https://beauty.dikidi.net/#widget=23385">⋞ЗАПИС⋟</a>'
 );
